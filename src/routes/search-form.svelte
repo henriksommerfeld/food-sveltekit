@@ -52,7 +52,8 @@
     border-color: var(--border-color);
     background-color: var(--background-color);
 
-    @supports (backdrop-filter: none) {
+    @supports (-webkit-backdrop-filter: none) or (backdrop-filter: none) {
+      -webkit-backdrop-filter: blur(10px);
       backdrop-filter: blur(10px);
     }
   }
