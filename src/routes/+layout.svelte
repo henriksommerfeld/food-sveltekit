@@ -17,4 +17,7 @@
 
 <svelte:window on:keydown={keyDownHandler} on:click={clickHandler} />
 
+<svelte:head>
+  <script async src="/sw.js"></script>
+</svelte:head>
 <slot />
