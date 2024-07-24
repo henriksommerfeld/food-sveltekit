@@ -77,6 +77,9 @@
     appearance: none;
     outline: none;
   }
+  input::placeholder {
+    opacity: 0.7;
+  }
   button {
     padding: 0;
     line-height: 0;
