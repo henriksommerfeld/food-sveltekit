@@ -1,12 +1,10 @@
 ---
-templateKey: recept
-url: ''
 title: Asiatisk lax med kokosris
 description: Laxen tillagas i air fryer. Serveras med fördel också med ugnsbakad spetskål.
 tools: Air fryer
 hidden: false
 category: Huvudrätt
-featuredimage: /uploads/airfryerlax.jpg
+featuredimage: /static/uploads/airfryerlax.jpg
 featuredimagetheme: 2
 servings: 4
 servingslabel: portioner
@@ -33,8 +31,7 @@ ingredients:
         - ingredient:
             ingredientamount: 1
             unit: tsk
-            ingredientname: chilipulver eller rökt paprikakrydda (om du inte vill ha det
-              starkt)
+            ingredientname: chilipulver eller rökt paprikakrydda (om du inte vill ha det starkt)
         - ingredient:
             ingredientamount: 1
             unit: tsk
@@ -60,7 +57,7 @@ ingredients:
             unit: g
             ingredientname: jasminris
         - ingredient:
-            ingredientamount: 0.5
+            ingredientamount: 0
             unit: tsk
             ingredientname: salt
         - ingredient:
@@ -71,17 +68,10 @@ instructions:
   - partinstructions:
       partinstructionsname: Gör så här
       partinstructionslist:
-        - instruction: Börja med marinaden. Blanda soja, sesamolja, saften från limen,
-            chilipulver, ingefärapulver, risvinäger och honung i en skål. Lägg
-            ned de tinade laxbitarna i marinaden, ös över och låt stå i ca 15-30
-            min i kylskåp. Om du även tänkt laga ugnsbakad spetskål till, så
-            passar det bra att pensla den med samma marinad.
+        - instruction: Börja med marinaden. Blanda soja, sesamolja, saften från limen, chilipulver, ingefärapulver, risvinäger och honung i en skål. Lägg ned de tinade laxbitarna i marinaden, ös över och låt stå i ca 15-30 min i kylskåp. Om du även tänkt laga ugnsbakad spetskål till, så passar det bra att pensla den med samma marinad.
         - instruction: Lägg in laxen i Air Fryern i 13 minuter på 185 grader.
-        - instruction: 'Koka under tiden riset i kokosmjölken och vattnet (tillsätt också
-            en nypa salt). '
-        - instruction: Om du även lagar spetskål som tillbehör, ska den under tiden också
-            bakas i ugnen (uppskuren och penslad med marinad) på 200 grader i
-            ca. 10-15 min, tills den får lite färg på ytan och mjuknar.
+        - instruction: Koka under tiden riset i kokosmjölken och vattnet (tillsätt också en nypa salt).
+        - instruction: Om du även lagar spetskål som tillbehör, ska den under tiden också bakas i ugnen (uppskuren och penslad med marinad) på 200 grader i ca. 10-15 min, tills den får lite färg på ytan och mjuknar.
 timepassive:
   dayspassive: 0
   hourspassive: 0
@@ -100,4 +90,6 @@ tags:
   - fisk
   - laxfilé
   - kokos
+url: ""
+templateKey: recept
 ---
