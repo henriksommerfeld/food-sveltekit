@@ -4,7 +4,7 @@ url: ''
 title: Krispig tofu i jordnötssås
 hidden: false
 category: Huvudrätt
-featuredimage: /uploads/img_1230.jpeg
+featuredimage: /static/uploads/img_1230.jpeg
 featuredimagetheme: 2
 servings: 4
 servingslabel: portioner

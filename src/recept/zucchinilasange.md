@@ -8,7 +8,7 @@ description: Den här lasagnen, med plattor av zucchini istället för pasta, ä
 tools: ''
 hidden: false
 category: Huvudrätt
-featuredimage: /uploads/zucchinilasange.jpg
+featuredimage: /static/uploads/zucchinilasange.jpg
 featuredimagetheme: 2
 servings: 6
 servingslabel: portioner

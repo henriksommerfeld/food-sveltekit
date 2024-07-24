@@ -5,7 +5,7 @@ title: Banana Bread
 description: Bröd som liknar banankaka
 hidden: false
 category: Bakning
-featuredimage: /uploads/banankaka.jpg
+featuredimage: /static/uploads/banankaka.jpg
 featuredimagetheme: 1
 servings: 1
 servingslabel: bröd

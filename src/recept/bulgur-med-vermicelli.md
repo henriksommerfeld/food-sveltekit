@@ -6,7 +6,7 @@ description: Recept från Zeinas kitchen. Väldigt gott som tillbehör till köt
   fisk eller vegetariska rätter.
 hidden: false
 category: Tillbehör
-featuredimage: /uploads/img_4596.jpg
+featuredimage: /static/uploads/img_4596.jpg
 featuredimagetheme: 2
 servings: 4
 servingslabel: portioner

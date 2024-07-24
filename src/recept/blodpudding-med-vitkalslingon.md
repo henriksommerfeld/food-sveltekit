@@ -4,7 +4,7 @@ url: ''
 title: Blodpudding med vitkålslingon
 hidden: false
 category: Huvudrätt
-featuredimage: /uploads/img_0640.jpeg
+featuredimage: /static/uploads/img_0640.jpeg
 featuredimagetheme: 1
 servings: 6
 servingslabel: skivor

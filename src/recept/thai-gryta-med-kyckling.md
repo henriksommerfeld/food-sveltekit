@@ -7,7 +7,7 @@ description: >-
   vätska.
 hidden: false
 category: Huvudrätt
-featuredimage: /uploads/thai-gryta.jpg
+featuredimage: /static/uploads/thai-gryta.jpg
 featuredimagetheme: 2
 servings: 8
 servingslabel: portioner

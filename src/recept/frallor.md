@@ -5,7 +5,7 @@ title: Frallor
 description: 'Enkel och någorlunda snabb bakning! '
 hidden: false
 category: Bakning
-featuredimage: /uploads/frallor.jpeg
+featuredimage: /static/uploads/frallor.jpeg
 featuredimagetheme: 1
 servings: 25
 servingslabel: bullar

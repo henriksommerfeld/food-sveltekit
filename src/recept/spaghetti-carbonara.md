@@ -5,7 +5,7 @@ title: Spaghetti Carbonara
 description: 'Vår version av Paolo Robertos italienska recept på klassisk Carbonara. '
 hidden: false
 category: Huvudrätt
-featuredimage: /uploads/carbonara.jpg
+featuredimage: /static/uploads/carbonara.jpg
 featuredimagetheme: 2
 servings: 4
 servingslabel: portioner

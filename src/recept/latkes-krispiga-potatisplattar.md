@@ -6,7 +6,7 @@ description: 'Traditionell judisk rätt som äts när man firar Chanukka. Riktig
   gott och påminner om rårakor. '
 hidden: false
 category: Huvudrätt
-featuredimage: /uploads/latkes.jpg
+featuredimage: /static/uploads/latkes.jpg
 featuredimagetheme: 2
 servings: 12
 servingslabel: latkes

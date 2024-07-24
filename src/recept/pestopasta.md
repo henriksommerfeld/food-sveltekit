@@ -4,7 +4,7 @@ url: ''
 title: Pestopasta
 hidden: false
 category: Huvudrätt
-featuredimage: /uploads/pestopasta.jpg
+featuredimage: /static/uploads/pestopasta.jpg
 featuredimagetheme: 1
 servings: 4
 servingslabel: portioner

@@ -5,7 +5,7 @@ title: Pangasiusfilé i ugn
 description: Vit fisk i ugn
 hidden: false
 category: Huvudrätt
-featuredimage: /uploads/pangasius.jpeg
+featuredimage: /static/uploads/pangasius.jpeg
 featuredimagetheme: 2
 servings: 4
 servingslabel: portioner

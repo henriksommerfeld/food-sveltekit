@@ -5,7 +5,7 @@ title: 'Naan-bröd '
 description: Detta recept är för vitlöks-naanbröd, men skippa vitlöken om det inte önskas.
 hidden: false
 category: Bakning
-featuredimage: /uploads/naanbro-d.jpg
+featuredimage: /static/uploads/naanbro-d.jpg
 featuredimagetheme: 2
 servings: 4
 servingslabel: bröd

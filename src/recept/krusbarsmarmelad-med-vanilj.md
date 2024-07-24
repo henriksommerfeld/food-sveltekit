@@ -7,7 +7,7 @@ description: Kan varieras med olika bär, just denna gång hade vi även hallon
   förpackningen till syltsockret ang. koktid).
 hidden: false
 category: Tillbehör
-featuredimage: /uploads/krusba-rssylt.jpeg
+featuredimage: /static/uploads/krusba-rssylt.jpeg
 featuredimagetheme: 1
 servings: 2
 servingslabel: burkar

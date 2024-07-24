@@ -5,7 +5,7 @@ title: Asiatisk vitkålssallad med nudlar
 description: Supergott recept från Zeinas kitchen...
 hidden: false
 category: Tillbehör
-featuredimage: /uploads/asiatisksalladmnudlar.jpg
+featuredimage: /static/uploads/asiatisksalladmnudlar.jpg
 featuredimagetheme: 2
 servings: 4
 servingslabel: portioner

@@ -5,7 +5,7 @@ title: Majsgröt
 description: Majsgröt på polenta
 hidden: false
 category: Frukost
-featuredimage: /uploads/polenta.jpg
+featuredimage: /static/uploads/polenta.jpg
 featuredimagetheme: 2
 servings: 2
 servingslabel: portioner

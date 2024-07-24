@@ -5,7 +5,7 @@ title: Lasange (mjölkfri)
 description: Lasange utan mjölk
 hidden: false
 category: Huvudrätt
-featuredimage: /uploads/lasange.jpeg
+featuredimage: /static/uploads/lasange.jpeg
 featuredimagetheme: 2
 servings: 6
 servingslabel: portioner

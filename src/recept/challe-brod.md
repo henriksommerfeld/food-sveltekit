@@ -5,7 +5,7 @@ title: Challe-bröd
 description: Flätat judiskt vetebröd
 hidden: false
 category: Bakning
-featuredimage: /uploads/challe.jpg
+featuredimage: /static/uploads/challe.jpg
 featuredimagetheme: 2
 servings: 2
 servingslabel: bröd

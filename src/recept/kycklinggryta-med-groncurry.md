@@ -6,7 +6,7 @@ description: Enkel och snabblagad thai-maträtt, supergott!
 tools: Wookpanna eller gjutjärnsgryta
 hidden: false
 category: Huvudrätt
-featuredimage: /uploads/kycklinggro-ncurry.jpg
+featuredimage: /static/uploads/kycklinggro-ncurry.jpg
 featuredimagetheme: 2
 servings: 6
 servingslabel: portioner

@@ -5,7 +5,7 @@ title: Havregrynsgröt (stålskuren)
 description: Havregrynsgröt på Steel cut oats
 hidden: false
 category: Frukost
-featuredimage: /uploads/steel-cut-oats.jpg
+featuredimage: /static/uploads/steel-cut-oats.jpg
 featuredimagetheme: 2
 servings: 2
 servingslabel: portioner

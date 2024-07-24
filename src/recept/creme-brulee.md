@@ -5,7 +5,7 @@ title: Crème brûlée
 tools: Gasbrännare
 hidden: false
 category: Efterrätt
-featuredimage: /uploads/cremebrule.jpg
+featuredimage: /static/uploads/cremebrule.jpg
 featuredimagetheme: 2
 servings: 8
 servingslabel: portioner

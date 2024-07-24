@@ -5,7 +5,7 @@ title: Moule marinière
 description: Snabb, enkel och lyxig rätt med musslor som får sjuda i vin och grädde.
 hidden: false
 category: Huvudrätt
-featuredimage: /uploads/moulefritt.jpg
+featuredimage: /static/uploads/moulefritt.jpg
 featuredimagetheme: 2
 servings: 1
 servingslabel: portion

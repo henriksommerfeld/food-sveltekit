@@ -5,7 +5,7 @@ title: Scones
 tools: ''
 hidden: false
 category: Bakning
-featuredimage: /uploads/scones.jpg
+featuredimage: /static/uploads/scones.jpg
 featuredimagetheme: 2
 servings: 8
 servingslabel: scones

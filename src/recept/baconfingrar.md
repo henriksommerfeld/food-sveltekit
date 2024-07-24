@@ -5,7 +5,7 @@ title: Baconfingrar
 description: Perfekt som förrätt eller som en rätt på buffé-bordet.
 hidden: false
 category: Förrätt
-featuredimage: /uploads/img_0991.jpeg
+featuredimage: /static/uploads/img_0991.jpeg
 featuredimagetheme: 2
 servings: 10
 servingslabel: stycken

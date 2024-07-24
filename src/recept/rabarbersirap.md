@@ -6,7 +6,7 @@ description: Gott i drinkar, på glassen m.m. Recept för 1 flaska på ca. 0,5 l
 tools: ''
 hidden: false
 category: Tillbehör
-featuredimage: /uploads/img_1763.jpeg
+featuredimage: /static/uploads/img_1763.jpeg
 featuredimagetheme: 1
 servings: 5
 servingslabel: dl

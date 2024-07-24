@@ -6,7 +6,7 @@ description: En mustig och smarrig gryta som behöver sina 3 timmar på spisen..
 tools: 'En tjockbottnad gryta (förslagsvis gjutjärn), en stekpanna'
 hidden: false
 category: Huvudrätt
-featuredimage: /uploads/chiligryta.jpg
+featuredimage: /static/uploads/chiligryta.jpg
 featuredimagetheme: 2
 servings: 8
 servingslabel: portioner

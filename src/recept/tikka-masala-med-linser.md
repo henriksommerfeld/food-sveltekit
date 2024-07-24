@@ -5,7 +5,7 @@ title: Tikka Masala med linser
 description: Serveras med ris och naanbröd.
 hidden: false
 category: Huvudrätt
-featuredimage: /uploads/tikkamasala.jpg
+featuredimage: /static/uploads/tikkamasala.jpg
 featuredimagetheme: 2
 servings: 4
 servingslabel: portioner

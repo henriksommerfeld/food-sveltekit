@@ -6,7 +6,7 @@ description: Nyttig variant som kan göras på andra rotfrukter också...
 tools: Air fryer
 hidden: false
 category: Tillbehör
-featuredimage: /uploads/img_2816.jpeg
+featuredimage: /static/uploads/img_2816.jpeg
 featuredimagetheme: 1
 servings: 6
 servingslabel: portioner

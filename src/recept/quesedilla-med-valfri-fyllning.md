@@ -6,7 +6,7 @@ description: Enkelt och snabblagat!
 tools: Stekpanna
 hidden: false
 category: Huvudrätt
-featuredimage: /uploads/img_4860.jpeg
+featuredimage: /static/uploads/img_4860.jpeg
 featuredimagetheme: 2
 servings: 1
 servingslabel: portioner

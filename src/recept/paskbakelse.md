@@ -6,7 +6,7 @@ description: Traditionell påskfika i familjen Palm
 tools: ''
 hidden: false
 category: Efterrätt
-featuredimage: /uploads/paskbakelse.jpg
+featuredimage: /static/uploads/paskbakelse.jpg
 featuredimagetheme: 1
 servings: 4
 servingslabel: bakelser

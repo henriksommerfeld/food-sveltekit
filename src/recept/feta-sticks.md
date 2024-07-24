@@ -6,7 +6,7 @@ description: Sött bröd som bakas i mack-grill. Funkar lika bra som snacks elle
 tools: Mackgrill
 hidden: false
 category: Bakning
-featuredimage: /uploads/fetabro-d.jpg
+featuredimage: /static/uploads/fetabro-d.jpg
 featuredimagetheme: 2
 servings: 2
 servingslabel: portioner

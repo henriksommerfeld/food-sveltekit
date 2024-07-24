@@ -5,7 +5,7 @@ title: Blåbärsplättar
 tools: Plättjärn
 hidden: false
 category: Huvudrätt
-featuredimage: /uploads/img_5045.jpg
+featuredimage: /static/uploads/img_5045.jpg
 featuredimagetheme: 2
 servings: 20
 servingslabel: stycken

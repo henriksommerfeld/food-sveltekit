@@ -9,7 +9,7 @@ tools: Stor gryta (eller flera mindre) och glasburkar att förvara i när chutne
   är klar. Sylttratt underlättar.
 hidden: false
 category: Tillbehör
-featuredimage: /uploads/img_0882.jpeg
+featuredimage: /static/uploads/img_0882.jpeg
 featuredimagetheme: 1
 servings: 1
 servingslabel: burk

@@ -8,7 +8,7 @@ description: 'Ser inte mycket ut för världen, men älskas av vår
 tools: Gasolbrännare, crème brûlée-formar
 hidden: false
 category: Efterrätt
-featuredimage: /uploads/vegcremebrule.jpg
+featuredimage: /static/uploads/vegcremebrule.jpg
 featuredimagetheme: 1
 servings: 4
 servingslabel: portioner

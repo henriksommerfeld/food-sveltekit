@@ -7,7 +7,7 @@ description: 'God och enkel Calzone som görs i stekpanna. '
 tools: '2 stekspadar, en bunke, visp och en stekpanna.'
 hidden: false
 category: Huvudrätt
-featuredimage: /uploads/calzone-tallrik.jpg
+featuredimage: /static/uploads/calzone-tallrik.jpg
 featuredimagetheme: 2
 servings: 2
 servingslabel: portioner

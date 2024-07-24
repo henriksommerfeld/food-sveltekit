@@ -5,7 +5,7 @@ title: Krispiga laxbollar med sweet chilisås
 tools: Matberedare (mixer)
 hidden: false
 category: Huvudrätt
-featuredimage: /uploads/img_2252-4.jpeg
+featuredimage: /static/uploads/img_2252-4.jpeg
 featuredimagetheme: 2
 servings: 6
 servingslabel: portioner

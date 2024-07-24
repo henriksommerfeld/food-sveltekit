@@ -5,7 +5,7 @@ title: Köttfärssoppa med vitkål
 description: ''
 hidden: false
 category: Huvudrätt
-featuredimage: /uploads/img_4634.jpg
+featuredimage: /static/uploads/img_4634.jpg
 featuredimagetheme: 2
 servings: 9
 servingslabel: portioner

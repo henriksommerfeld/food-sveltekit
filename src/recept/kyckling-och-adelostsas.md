@@ -4,7 +4,7 @@ url: ''
 title: Kyckling- och ädelostsås
 hidden: false
 category: Huvudrätt
-featuredimage: /uploads/img_3434.jpg
+featuredimage: /static/uploads/img_3434.jpg
 featuredimagetheme: 1
 servings: 4
 servingslabel: portioner

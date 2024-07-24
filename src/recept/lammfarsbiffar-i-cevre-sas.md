@@ -5,7 +5,7 @@ title: Lammfärsbiffar i cèvre-sås
 description: 'Ursprungligen ett LCHF-recept, men kör man med potatis blir det ju HCHF'
 hidden: false
 category: Huvudrätt
-featuredimage: /uploads/lammfarsbiffar.jpg
+featuredimage: /static/uploads/lammfarsbiffar.jpg
 featuredimagetheme: 2
 servings: 4
 servingslabel: portioner

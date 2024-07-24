@@ -4,7 +4,7 @@ url: ''
 title: Timjanrostad sötpotatis och chorizo
 hidden: false
 category: Huvudrätt
-featuredimage: /uploads/img_0926.jpeg
+featuredimage: /static/uploads/img_0926.jpeg
 featuredimagetheme: 2
 servings: 4
 servingslabel: portioner

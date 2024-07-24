@@ -5,7 +5,7 @@ title: Berns legendariska haricots verts!
 description: 'Recept på Berns supersmarriga haricot verts! (Recept: Fredrik Krook)'
 hidden: false
 category: Tillbehör
-featuredimage: /uploads/haricotvers-och-ostronskivling.jpg
+featuredimage: /static/uploads/haricotvers-och-ostronskivling.jpg
 featuredimagetheme: 2
 servings: 4
 servingslabel: portioner

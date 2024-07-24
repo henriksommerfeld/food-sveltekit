@@ -4,7 +4,7 @@ url: ''
 title: Asiatiska kycklingbullar med nudel- och grönsakswok
 hidden: false
 category: Huvudrätt
-featuredimage: /uploads/kycklingko-ttbullar.jpg
+featuredimage: /static/uploads/kycklingko-ttbullar.jpg
 featuredimagetheme: 2
 servings: 6
 servingslabel: portioner

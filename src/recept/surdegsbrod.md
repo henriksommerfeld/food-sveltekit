@@ -7,7 +7,7 @@ description: >-
   och har alla ingredienser hemma
 hidden: false
 category: Bakning
-featuredimage: /uploads/surdegsbrod.jpg
+featuredimage: /static/uploads/surdegsbrod.jpg
 featuredimagetheme: 2
 servings: 1
 servingslabel: bröd

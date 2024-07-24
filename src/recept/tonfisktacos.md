@@ -5,7 +5,7 @@ title: Tonfisktacos
 tools: 'Gärna grill, men går lika bra med stekpanna.'
 hidden: false
 category: Huvudrätt
-featuredimage: /uploads/img_2337-9.jpeg
+featuredimage: /static/uploads/img_2337-9.jpeg
 featuredimagetheme: 2
 servings: 4
 servingslabel: portioner

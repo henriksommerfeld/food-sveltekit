@@ -6,7 +6,7 @@ description: Allt tillagas i samma panna!
 tools: En ugnsplåt
 hidden: false
 category: Huvudrätt
-featuredimage: /uploads/img_1522-2.jpeg
+featuredimage: /static/uploads/img_1522-2.jpeg
 featuredimagetheme: 2
 servings: 6
 servingslabel: portioner

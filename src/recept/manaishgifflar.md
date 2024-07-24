@@ -5,7 +5,7 @@ title: Manaishgifflar
 description: Så gott recept från Zeinas kitchen. Passar utmärkt till frukost.
 hidden: false
 category: Bakning
-featuredimage: /uploads/manaishgifflar.jpg
+featuredimage: /static/uploads/manaishgifflar.jpg
 featuredimagetheme: 2
 servings: 25
 servingslabel: gifflar

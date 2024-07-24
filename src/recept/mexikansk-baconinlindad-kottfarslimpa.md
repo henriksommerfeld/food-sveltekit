@@ -5,7 +5,7 @@ title: Mexikansk baconinlindad köttfärslimpa
 description: ''
 hidden: false
 category: Huvudrätt
-featuredimage: /uploads/img_4979.jpg
+featuredimage: /static/uploads/img_4979.jpg
 featuredimagetheme: 2
 servings: 6
 servingslabel: portioner

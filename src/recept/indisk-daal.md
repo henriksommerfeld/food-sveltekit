@@ -4,7 +4,7 @@ url: ''
 title: Indisk daal
 hidden: false
 category: Huvudrätt
-featuredimage: /uploads/indiskdahlgryta.jpg
+featuredimage: /static/uploads/indiskdahlgryta.jpg
 featuredimagetheme: 2
 servings: 8
 servingslabel: portioner

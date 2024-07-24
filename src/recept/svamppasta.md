@@ -5,7 +5,7 @@ title: Svamppasta
 description: Pasta med svampsås
 hidden: false
 category: Huvudrätt
-featuredimage: /uploads/svamppasta.jpg
+featuredimage: /static/uploads/svamppasta.jpg
 featuredimagetheme: 2
 servings: 8
 servingslabel: portioner

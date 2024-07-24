@@ -10,7 +10,7 @@ tools: >-
   tätt, ex. i glas, för att förvara den färdiga granolan i.
 hidden: false
 category: Frukost
-featuredimage: /uploads/granola.jpg
+featuredimage: /static/uploads/granola.jpg
 featuredimagetheme: 2
 servings: 16
 servingslabel: deciliter

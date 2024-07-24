@@ -6,7 +6,7 @@ description: Perfekt om du har äldre, bruna bananer hemma.
 tools: Bunke, stavmixer
 hidden: false
 category: Efterrätt
-featuredimage: /uploads/img_2134.jpeg
+featuredimage: /static/uploads/img_2134.jpeg
 featuredimagetheme: 2
 servings: 8
 servingslabel: chokladbollar

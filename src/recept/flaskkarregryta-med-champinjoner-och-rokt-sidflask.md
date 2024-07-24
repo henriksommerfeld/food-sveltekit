@@ -5,7 +5,7 @@ title: Fläskkarrégryta med champinjoner och rökt sidfläsk
 description: Går även bra att göra på vildsvinskött eller älg!
 hidden: false
 category: Huvudrätt
-featuredimage: /uploads/img_3264.jpg
+featuredimage: /static/uploads/img_3264.jpg
 featuredimagetheme: 1
 servings: 10
 servingslabel: portioner

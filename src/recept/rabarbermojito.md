@@ -5,7 +5,7 @@ title: Rabarbermojito
 description: Galet god, sötsyrlig och fräsch. Perfekt fördrink i rabarbertider!
 hidden: false
 category: Tillbehör
-featuredimage: /uploads/img_0958.jpeg
+featuredimage: /static/uploads/img_0958.jpeg
 featuredimagetheme: 2
 servings: 1
 servingslabel: drink(ar)

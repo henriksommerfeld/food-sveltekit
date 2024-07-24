@@ -8,7 +8,7 @@ description: >-
 tools: ''
 hidden: false
 category: Tillbehör
-featuredimage: /uploads/img_6908.jpg
+featuredimage: /static/uploads/img_6908.jpg
 featuredimagetheme: 2
 servings: 1
 servingslabel: burk

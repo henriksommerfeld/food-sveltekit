@@ -6,7 +6,7 @@ description: Klassisk jul- och påskmat
 tools: Ugn, ugnsform och matberedare
 hidden: false
 category: Huvudrätt
-featuredimage: /uploads/jansson.jpg
+featuredimage: /static/uploads/jansson.jpg
 featuredimagetheme: 2
 servings: 12
 servingslabel: portioner

@@ -6,7 +6,7 @@ description: 'Traditionella judiska chanukka-munkar (mjölkproteinfria). '
 tools: 'Hålslev, tjockbottnad kastrull för fritering, spritspåse'
 hidden: false
 category: Efterrätt
-featuredimage: /uploads/sufganiot.jpg
+featuredimage: /static/uploads/sufganiot.jpg
 featuredimagetheme: 2
 servings: 18
 servingslabel: munkar

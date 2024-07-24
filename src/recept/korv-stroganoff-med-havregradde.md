@@ -6,7 +6,7 @@ description: En lättlagad klassiker som går hem hos hela familjen (recept frå
   mathem.se/Mari Bergman)
 hidden: false
 category: Huvudrätt
-featuredimage: /uploads/stroganoff.jpg
+featuredimage: /static/uploads/stroganoff.jpg
 featuredimagetheme: 2
 servings: 8
 servingslabel: portioner

@@ -6,7 +6,7 @@ description: Smarrig tomatbaserad rätt med pocherade ägg.
 tools: En stor stekpanna med lock
 hidden: false
 category: Frukost
-featuredimage: /uploads/shakshuka.jpg
+featuredimage: /static/uploads/shakshuka.jpg
 featuredimagetheme: 1
 servings: 6
 servingslabel: portioner

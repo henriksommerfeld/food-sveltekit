@@ -8,7 +8,7 @@ description: >-
   uppskattat av dina middagsgäster.
 hidden: false
 category: Huvudrätt
-featuredimage: /uploads/chili-con-carne.jpg
+featuredimage: /static/uploads/chili-con-carne.jpg
 featuredimagetheme: 2
 servings: 4
 servingslabel: portioner

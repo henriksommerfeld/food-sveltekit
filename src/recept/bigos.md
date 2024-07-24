@@ -7,7 +7,7 @@ tools: ''
 hidden: false
 category: Huvudrätt
 featuredimage: >-
-  /uploads/polish-hunters-stew-bigos-recipe-1136773-hero-01-3103cca591e248838157cbe61be0560c.webp
+  /static/uploads/polish-hunters-stew-bigos-recipe-1136773-hero-01-3103cca591e248838157cbe61be0560c.webp
 featuredimagetheme: 1
 servings: 8
 servingslabel: portioner

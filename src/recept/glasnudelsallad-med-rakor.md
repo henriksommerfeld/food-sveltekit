@@ -5,7 +5,7 @@ title: Glasnudelsallad med räkor
 description: 'Fräsch sallad, lika god att äta kall.'
 hidden: false
 category: Huvudrätt
-featuredimage: /uploads/glasnudelsallad.jpeg
+featuredimage: /static/uploads/glasnudelsallad.jpeg
 featuredimagetheme: 2
 servings: 4
 servingslabel: portioner

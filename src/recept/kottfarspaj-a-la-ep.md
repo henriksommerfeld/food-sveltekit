@@ -6,7 +6,7 @@ description: Lyxig köttfärspaj
 tools: ' Stor pajform, minst 30 cm med hyfsat hög kant.'
 hidden: false
 category: Huvudrätt
-featuredimage: /uploads/paj-a-la-ep.jpg
+featuredimage: /static/uploads/paj-a-la-ep.jpg
 featuredimagetheme: 2
 servings: 8
 servingslabel: portioner
