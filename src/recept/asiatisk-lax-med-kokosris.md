@@ -57,7 +57,7 @@ ingredients:
             unit: g
             ingredientname: jasminris
         - ingredient:
-            ingredientamount: 0
+            ingredientamount: 0.5
             unit: tsk
             ingredientname: salt
         - ingredient:
