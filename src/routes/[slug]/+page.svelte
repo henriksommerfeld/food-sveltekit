@@ -146,6 +146,9 @@
     width: 100%;
     padding-bottom: 5rem;
   }
+  header {
+    padding: 0 1rem;
+  }
   h1 {
     color: white;
     text-shadow: rgba(0, 0, 0, 0.5) 0px 0px 5px;
