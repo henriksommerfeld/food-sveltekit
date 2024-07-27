@@ -199,5 +199,5 @@ collections:
           name: 'tags',
           widget: 'list',
           required: false,
-          hint: 'Taggarna är till för att kunna hitta andra recept taggade med samma sak, så ange inte få många.'
+          hint: 'Taggarna är till för att kunna hitta andra recept taggade med samma sak, så ange inte för många.'
         }
