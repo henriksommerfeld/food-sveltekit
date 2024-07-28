@@ -57,13 +57,13 @@ ingredients:
             ingredientname: Salt
 instructions:
   - partinstructions:
-      partinstructionsname: Räkorna - Så här gör du
+      partinstructionsname: Räkorna
       partinstructionslist:
         - instruction: Skölj 2-3 dl spån i en sil så att de blir fuktiga. Lägg dem sedan på spånbrickan och tillsätt ett par sockerbitar (alt. strösocker som sprids ut jämnt över spånen).
         - instruction: Sätt på elgrillen (läge 3). Sätt in spånen längst ned i rökugnen. Stäng sedan luckan.
         - instruction: När det börjar ryka, häll upp de frysta räkorna i nätkorgar och sätt in dem i rökugnen. Låt räkorna stå i ca. 15 minuter. Öppna luckan, skaka om och låt stå i någon minut till.
   - partinstructions:
-      partinstructionsname: Whiskyaioli - Så här gör du
+      partinstructionsname: Whisky-aioli
       partinstructionslist:
         - instruction: Se till att alla ingredienser har samma temperatur. Antingen rumstempererade eller kylskåpskalla.
         - instruction: Separera äggvitan från gulan. Lägg äggulorna i en hög skål, jag brukar ta ett litermått.
