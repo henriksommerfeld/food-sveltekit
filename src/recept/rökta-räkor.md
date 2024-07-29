@@ -79,7 +79,6 @@ timeactive:
 tags:
   - rökugn
   - röka
-  - rökta räkor
   - räkor
   - skaldjur
   - Muurikka
@@ -88,9 +87,8 @@ tags:
   - förrätt
   - huvudrätt
   - aioli
-  - vitlöksbröd
-  - whisky
 ---
-Lika gott med en vanlig köpe-aioli som tillbehör. Servera gärna räkorna med vitlöksbröd till också.
+
+Lika gott med en vanlig köpe-aioli som tillbehör. Servera gärna räkorna med [vitlöksbröd](/vitl%C3%B6ksbr%C3%B6d) till också.
 
 OBS - Viktigt att räkorna är frysta när de läggs in i rökugnen. De tinar då i ugnen, men hinner inte bli sega.
