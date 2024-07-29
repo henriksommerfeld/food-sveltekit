@@ -44,7 +44,7 @@ let sortedArray = new Array<{ count: number; name: string; slug: string }>()
 export async function getTags() {
   if (sortedArray.length) return sortedArray
   const recipes = await getRecipes()
-  const allTags = recipes.flatMap((recipe) => recipe.tags)
+  const allTags = recipes.flatMap((recipe) => recipe.tags.map(t => t.toLowerCase()))
   const tagCounts = allTags.reduce(
     (tags, tag) => ({ ...tags, [tag]: (tags[tag] || 0) + 1 }),
     {} as Record<string, number>
