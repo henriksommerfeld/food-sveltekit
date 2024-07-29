@@ -29,7 +29,7 @@ ingredients:
             unit: g
             ingredientname: ädelost
         - ingredient:
-            ingredientamount: 1
+            ingredientamount: 1.5
             unit: dl
             ingredientname: basilika, ruccola och persilja (blandat grönt)
         - ingredient:
