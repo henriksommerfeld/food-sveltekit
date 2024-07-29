@@ -1,12 +1,7 @@
 ---
-templateKey: recept
-url: ''
 title: Rabarberchutney
-description: Recept för ca 1 burk á 250 g. Senaste 2 omgångarna gjorde vi med
-  1500g rabarber, 10g ingefära och 40g vitlök. Blev 6 burkar ena gången och 4,5
-  burkar andra gången.
-tools: Stor gryta (eller flera mindre) och glasburkar att förvara i när chutneyn
-  är klar. Sylttratt underlättar.
+description: Recept för ca 1 burk á 250 g. Senaste 2 omgångarna gjorde vi med 1500g rabarber, 10g ingefära och 40g vitlök. Blev 6 burkar ena gången och 4,5 burkar andra gången.
+tools: Stor gryta (eller flera mindre) och glasburkar att förvara i när chutneyn är klar. Sylttratt underlättar.
 hidden: false
 category: Tillbehör
 featuredimage: /static/uploads/img_0882.jpeg
@@ -62,8 +57,7 @@ instructions:
         - instruction: Sätt in glasburkarna utan lock i ugnen
         - instruction: Låt sjuda utan lock i 1 timme. Rör om några gånger under tiden.
         - instruction: Ta ut glasburkarna ur ugnen
-        - instruction: Häll upp i burkarna, lägg på locken och ställ burkarna upp-och-ner
-            tills de svalnat.
+        - instruction: Häll upp i burkarna, lägg på locken och ställ burkarna upp-och-ner tills de svalnat.
 timepassive:
   dayspassive: 0
   hourspassive: 1
@@ -71,6 +65,10 @@ timepassive:
 timeactive:
   hoursactive: 1
   minutesactive: 0
+tags:
+  - rabarber
+  - chutney
+templateKey: recept
+url: ""
 ---
-
 ![skivade råa rabarber i gryta](/uploads/img_0880.jpeg)
