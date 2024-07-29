@@ -1,15 +1,16 @@
 ---
-templateKey: recept
-url: ''
 title: Kyckling- och ädelostsås
+description: ""
+tools: ""
 hidden: false
 category: Huvudrätt
 featuredimage: /static/uploads/img_3434.jpg
-featuredimagetheme: 1
+featuredimagetheme: "2"
 servings: 4
 servingslabel: portioner
 ingredients:
   - partingredients:
+      partingredientsname: Ingredienser
       partingredientslist:
         - ingredient:
             ingredientamount: 4
@@ -18,7 +19,7 @@ ingredients:
         - ingredient:
             ingredientamount: 5
             unit: dl
-            ingredientname: 'matlagningsgrädde eller creme fraiche '
+            ingredientname: matlagningsgrädde eller creme fraiche
         - ingredient:
             ingredientamount: 1
             unit: st
@@ -28,7 +29,7 @@ ingredients:
             unit: g
             ingredientname: ädelost
         - ingredient:
-            ingredientamount: 1.5
+            ingredientamount: 1
             unit: dl
             ingredientname: basilika, ruccola och persilja (blandat grönt)
         - ingredient:
@@ -51,18 +52,14 @@ ingredients:
             ingredientamount: 0
             unit: st
             ingredientname: smör till stekning
-      partingredientsname: Ingredienser
 instructions:
   - partinstructions:
+      partinstructionsname: Gör så här
       partinstructionslist:
         - instruction: Skär kycklingen i tärningar och fräs dem gyllene i smör.
-        - instruction: Häll på matlagningsgrädde eller creme fraiche. Smula ner
-            buljongtärningen och ädelosten.
-        - instruction: Hacka blandat grönt, såsom persilja, ruccola och basilika och vänd
-            ner. Smaka av med svartpeppar.
-        - instruction: Vänd ned den kokta pastan och toppa med rostade solrosfrön samt
-            strimlade rädisor.
-      partinstructionsname: Gör så här
+        - instruction: Häll på matlagningsgrädde eller creme fraiche. Smula ner buljongtärningen och ädelosten.
+        - instruction: Hacka blandat grönt, såsom persilja, ruccola och basilika och vänd ner. Smaka av med svartpeppar.
+        - instruction: Vänd ned den kokta pastan och toppa med rostade solrosfrön samt strimlade rädisor.
 timepassive:
   dayspassive: 0
   hourspassive: 0
@@ -75,4 +72,6 @@ tags:
   - kyckling
   - mögelost
   - ädelost
+url: ""
+templateKey: recept
 ---
