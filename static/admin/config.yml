@@ -105,7 +105,7 @@ collections:
                                   label: 'Mängd',
                                   name: 'ingredientamount',
                                   widget: 'number',
-                                  valueType: 'float',
+                                  value_type: 'float',
                                   min: 0,
                                   hint: 'Ange 0 om du inte vill visa någon mängd, ex. "salt"'
                                 },
