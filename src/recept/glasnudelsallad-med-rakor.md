@@ -102,7 +102,6 @@ timeactive:
   minutesactive: 15
 tags:
   - asiatiskt
-  - Asien
   - sallad
   - nudlar
   - räkor

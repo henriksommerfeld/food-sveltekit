@@ -74,6 +74,7 @@ timeactive:
   hoursactive: 0
   minutesactive: 30
 tags:
+  - banankaka
   - kaka
   - sött
   - efterrätt

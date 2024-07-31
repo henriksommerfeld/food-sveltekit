@@ -88,8 +88,12 @@ tags:
   - äggnudlar
 ---
 
-G﻿illar man färsk koriander kan det med fördel också strös på vid servering.
+Gillar man färsk koriander kan det med fördel också strös på vid servering.
 
-OBS! Om du tänkt använda dig av färska grönsaker i grytan, såsom broccoli och morrötter, då ska de stekas på tillsammans med kycklingen innan grädden hälls i. Morrötter kräver lite längre tid, så skär dem i tunna, avlånga stavar, då går det fort. Likaså broccoli-stammen (som med fördel användas den med).
+OBS! Om du tänkt använda dig av färska grönsaker i grytan, såsom broccoli och
+morrötter, då ska de stekas på tillsammans med kycklingen innan grädden hälls
+i. Morrötter kräver lite längre tid, så skär dem i tunna, avlånga stavar, då
+går det fort. Likaså broccoli-stammen (som med fördel användas den med).
 
-Även konserv-grönsaker kan med fördel stekas på en kort stund innan grädden hälls på.
+Även konserv-grönsaker kan med fördel stekas på en kort stund innan grädden
+hälls på.

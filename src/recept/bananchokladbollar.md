@@ -60,5 +60,4 @@ timeactive:
 tags:
   - chokladbollar
   - sött
-  - bakat
 ---

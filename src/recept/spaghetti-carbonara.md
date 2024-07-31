@@ -81,12 +81,9 @@ timeactive:
 tags:
   - pasta
   - spaghetti
-  - Carbonara
-  - Italien
+  - carbonara
+  - italien
   - italienskt
   - comfort
-  - Paolo
-  - Roberto
   - bacon
-  - ägg
 ---

@@ -93,7 +93,7 @@ timeactive:
   hoursactive: 1
   minutesactive: 0
 tags:
-  - LCHF
+  - lchf
   - lamm
   - kött
   - chevré

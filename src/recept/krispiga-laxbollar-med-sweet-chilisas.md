@@ -82,6 +82,5 @@ timeactive:
   minutesactive: 30
 tags:
   - lax
-  - laxbollar
   - fisk
 ---

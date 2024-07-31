@@ -65,7 +65,7 @@ tags:
   - plättar
   - pannkaka
   - mjölkfritt
-  - barnvänligt
+  - barn
   - blåbär
   - blåbärsplättar
   - snabblagat

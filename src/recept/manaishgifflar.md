@@ -96,12 +96,11 @@ timeactive:
   hoursactive: 0
   minutesactive: 20
 tags:
-  - Mellanöstern
+  - mellanöstern
   - bullar
   - gifflar
   - manaish
-  - Zeinas
-  - kitchen
+  - zeina
   - frukost
   - zaatar
 ---

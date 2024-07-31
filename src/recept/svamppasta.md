@@ -83,7 +83,7 @@ timeactive:
   hoursactive: 0
   minutesactive: 30
 tags:
-  - Pasta
+  - pasta
   - svamp
   - vegetariskt
 ---

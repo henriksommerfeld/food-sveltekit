@@ -86,7 +86,8 @@ timeactive:
   hoursactive: 0
   minutesactive: 20
 tags:
-  - LCHF
+  - pizza
+  - lchf
 ---
 
 Innan pizzan viks ihop:

@@ -148,7 +148,7 @@ timeactive:
   hoursactive: 0
   minutesactive: 30
 tags:
-  - Bröd
+  - bröd
   - surdeg
 ---
 

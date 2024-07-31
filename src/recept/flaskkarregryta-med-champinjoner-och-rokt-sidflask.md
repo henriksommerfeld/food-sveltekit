@@ -117,8 +117,6 @@ timeactive:
 tags:
   - kött
   - gryta
-  - höst
-  - vinter
   - vilt
   - fläsk
 ---

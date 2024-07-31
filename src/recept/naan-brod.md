@@ -90,5 +90,5 @@ tags:
   - naanbröd
   - vitlök
   - indiskt
-  - Indien
+  - indien
 ---

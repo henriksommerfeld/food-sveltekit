@@ -60,11 +60,11 @@ tags:
   - tillbehör
   - efterrätt
   - förrätt
-  - snack
+  - snacks
+  - tilltugg
   - ost
   - feta
   - fetaost
-  - Grekland
   - grekiskt
   - fetabrot
   - bröd

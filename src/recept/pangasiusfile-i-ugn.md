@@ -49,7 +49,8 @@ timeactive:
   hoursactive: 0
   minutesactive: 30
 tags:
-  - Fisk
+  - fisk
+  - pangasius
 ---
 
 Servera med grönsaker och ris, potatis eller vad du nu gillar.

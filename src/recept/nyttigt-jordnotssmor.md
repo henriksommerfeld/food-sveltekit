@@ -58,7 +58,7 @@ timeactive:
   minutesactive: 15
 tags:
   - jordnötter
-  - LCHF
+  - lchf
   - pålägg
 ---
 

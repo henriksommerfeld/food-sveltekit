@@ -82,14 +82,13 @@ timeactive:
 tags:
   - lax
   - airfryer
-  - asiatisk
+  - asiatiskt
   - kokosris
   - kokosmjölk
   - snabblagat
   - spetskål
   - fisk
-  - laxfilé
   - kokos
-url: ""
+url: ''
 templateKey: recept
 ---

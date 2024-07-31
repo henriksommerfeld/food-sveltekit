@@ -75,5 +75,4 @@ tags:
   - förrätt
   - tilltugg
   - snacks
-  - buffé
 ---

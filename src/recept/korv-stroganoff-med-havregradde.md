@@ -1,6 +1,6 @@
 ---
 templateKey: recept
-url: ""
+url: ''
 title: Korv Stroganoff med havregrädde
 description: En lättlagad klassiker som går hem hos hela familjen (recept från
   mathem.se/Mari Bergman)
@@ -76,17 +76,17 @@ ingredients:
 instructions:
   - partinstructions:
       partinstructionslist:
-        - instruction: "Tillbehör: Koka riset enligt anvisning på paketet. Koka upp lite
-            lättsaltat vatten i en kastrull till sockerärtorna."
-        - instruction: "Stroganoff: Skala och finhacka lök och vitlök. Skala och skiva
-            morötterna i tunna skivor. Skär korven i strimlor. "
+        - instruction: 'Tillbehör: Koka riset enligt anvisning på paketet. Koka upp lite
+            lättsaltat vatten i en kastrull till sockerärtorna.'
+        - instruction: 'Stroganoff: Skala och finhacka lök och vitlök. Skala och skiva
+            morötterna i tunna skivor. Skär korven i strimlor. '
         - instruction: Hetta upp lite olja i en stekpanna eller gryta. Bryn lök och
             morötter tillsammans med timjan. Lägg i korven och stek tills den
             får lite färg. Tillsätt tomatpuré och havregrädde. Smaka av med salt
             och peppar och låt det småputtra i några minuter. Späd eventuellt
             med lite vatten.
-        - instruction: "Tillbehör: Förväll sockerärtorna någon minut i det kokande
-            vattnet. Sila av vattnet och tillsätt en klick smör. "
+        - instruction: 'Tillbehör: Förväll sockerärtorna någon minut i det kokande
+            vattnet. Sila av vattnet och tillsätt en klick smör. '
       partinstructionsname: Gör så här
 timepassive:
   dayspassive: 0
@@ -97,12 +97,12 @@ timeactive:
   minutesactive: 30
 tags:
   - korv
-  - Stroganoff
+  - stroganoff
   - ris
   - korvgryta
   - gryta
-  - familjevänligt
   - mjölkfritt
-  - havregrädde
 ---
+
 S﻿ervera stroganoffen med ris och smörslungade sugarsnaps.
+

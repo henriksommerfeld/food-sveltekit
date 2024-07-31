@@ -91,7 +91,7 @@ timeactive:
   minutesactive: 15
 tags:
   - soppa
-  - LCHF
+  - lchf
   - vitkål
   - nötfärs
   - kött

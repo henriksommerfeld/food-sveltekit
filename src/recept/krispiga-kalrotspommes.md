@@ -65,7 +65,6 @@ timeactive:
   minutesactive: 15
 tags:
   - lchf
-  - lågkolhydratskost
   - glutenfritt
   - kålrot
   - rotfrukter

@@ -138,4 +138,5 @@ tags:
   - kött
   - älg
   - gryta
+  - vilt
 ---

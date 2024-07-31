@@ -81,7 +81,7 @@ tags:
   - röka
   - räkor
   - skaldjur
-  - Muurikka
+  - muurikka
   - rökt
   - snabblagat
   - förrätt

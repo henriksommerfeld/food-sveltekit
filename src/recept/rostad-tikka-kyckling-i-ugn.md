@@ -69,6 +69,5 @@ timeactive:
 tags:
   - kyckling
   - kött
-  - enkelt
   - snabblagat
 ---

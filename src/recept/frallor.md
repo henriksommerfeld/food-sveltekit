@@ -77,4 +77,4 @@ tags:
   - frukost
 ---
 
-B﻿ullarna går utmärkt att frysa!
+Bullarna går utmärkt att frysa!

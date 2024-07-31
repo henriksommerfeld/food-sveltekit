@@ -106,7 +106,7 @@ tags:
   - shakshuka
   - ägg
   - vegetariskt
-  - Mellanöstern
+  - mellanöstern
   - israeliskt
   - tomat
 ---

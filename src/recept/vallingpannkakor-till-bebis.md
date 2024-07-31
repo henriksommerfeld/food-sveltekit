@@ -75,6 +75,6 @@ tags:
   - blåbär
 ---
 
-6﻿-9 månaders bebis: Skär pannkakorna i halvor eller i långa stavar.
+6-9 månaders bebis: Skär pannkakorna i halvor eller i långa stavar.
 
-9﻿ månader uppåt: Skär pannkakorna i små munsbitar.
+9 månader uppåt: Skär pannkakorna i små munsbitar.

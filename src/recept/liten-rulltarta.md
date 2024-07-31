@@ -84,6 +84,7 @@ timeactive:
   hoursactive: 0
   minutesactive: 30
 tags:
-  - Rulltårta
+  - rulltårta
   - sött
+  - tårta
 ---

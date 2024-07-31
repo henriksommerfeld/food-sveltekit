@@ -56,11 +56,9 @@ timeactive:
 tags:
   - bulgur
   - vermicelli
-  - Mellanöstern
+  - mellanöstern
   - couscous
   - tillbehör
-  - Zeinas
-  - kitchen
-  - sjukryddor
+  - zeina
   - pasta
 ---

@@ -101,4 +101,5 @@ tags:
   - långkok
   - crockpot
   - älg
+  - vilt
 ---

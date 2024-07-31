@@ -54,9 +54,8 @@ tags:
   - quesadilla
   - tortilla
   - mexikanskt
-  - Mexiko
+  - mexiko
   - vegetariskt
   - kött
-  - snabbmat
   - snabblagat
 ---

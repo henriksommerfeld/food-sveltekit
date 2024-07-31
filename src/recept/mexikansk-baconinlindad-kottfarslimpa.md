@@ -148,10 +148,9 @@ tags:
   - baconinlindad
   - potatis
   - paprika
-  - Mexico
-  - mexikansk
-  - tacokrydda
+  - mexico
+  - mexikanskt
   - onepot
 ---
 
-P﻿ensla köttfärslimpan med soya innan den serveras.
+Pensla köttfärslimpan med soya innan den serveras.

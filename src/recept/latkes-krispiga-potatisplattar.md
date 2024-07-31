@@ -75,18 +75,12 @@ timeactive:
   hoursactive: 1
   minutesactive: 0
 tags:
-  - Chanukka
-  - judisk
-  - judendom
+  - chanukka
+  - judiskt
   - latkes
   - potatis
   - potatisplättar
   - rårakor
-  - hanukka
-  - Chanuka
-  - hanukkah
-  - högtid
-  - ljushögtid
   - olja
   - friterat
 ---

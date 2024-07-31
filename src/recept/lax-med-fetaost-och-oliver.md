@@ -62,6 +62,4 @@ tags:
   - fisk
   - fetaost
   - oliver
-  - middag
-  - lunch
 ---

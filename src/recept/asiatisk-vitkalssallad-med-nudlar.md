@@ -108,7 +108,7 @@ tags:
   - sallad
   - tillbehör
   - nudlar
-  - asiatisk
+  - asiatiskt
   - Zeinas
   - kitchen
   - vitkålssallad

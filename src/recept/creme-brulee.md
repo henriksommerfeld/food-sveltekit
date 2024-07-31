@@ -63,6 +63,8 @@ timeactive:
   minutesactive: 20
 tags:
   - Crème brûlée
+  - creme
+  - brulee
   - efterrätt
   - nyår
   - nyårsafton

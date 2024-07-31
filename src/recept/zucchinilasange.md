@@ -99,7 +99,7 @@ timeactive:
   hoursactive: 0
   minutesactive: 50
 tags:
-  - LCHF
+  - lchf
   - grönsaker
   - zucchini
   - kött

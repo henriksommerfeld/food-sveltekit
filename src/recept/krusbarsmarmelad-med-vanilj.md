@@ -51,5 +51,4 @@ tags:
   - krusbär
   - hallon
   - vanilj
-  - bär
 ---

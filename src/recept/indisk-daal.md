@@ -124,8 +124,7 @@ tags:
   - vegetariskt
   - veganskt
   - ris
-  - asiatisk
-  - Asien
+  - asiatiskt
 ---
 
 S﻿erveras med fördel till ris.

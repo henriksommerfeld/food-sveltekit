@@ -110,6 +110,6 @@ timeactive:
   hoursactive: 1
   minutesactive: 0
 tags:
-  - Pizza
+  - pizza
   - surdeg
 ---

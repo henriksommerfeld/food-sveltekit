@@ -43,7 +43,8 @@ timeactive:
   hoursactive: 0
   minutesactive: 10
 tags:
-  - Rulltårta
+  - rulltårta
+  - tårta
 ---
 
 Se receptet [Liten rulltårta](/liten-rulltarta) för att göra denna själv.

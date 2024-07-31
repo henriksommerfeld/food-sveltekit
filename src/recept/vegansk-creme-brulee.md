@@ -69,9 +69,11 @@ timeactive:
   minutesactive: 20
 tags:
   - crème brûlée
+  - creme
+  - brulee
   - vegansk
-  - vegan
   - efterrätt
+  - nyår
   - nyårsafton
   - sött
 ---

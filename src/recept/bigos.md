@@ -92,4 +92,5 @@ tags:
   - polskt
   - Polen
   - gryta
+  - kött
 ---

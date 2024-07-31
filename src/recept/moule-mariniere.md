@@ -79,9 +79,8 @@ tags:
   - vinsås
   - frites
   - fransk
-  - Frankrike
+  - frankrike
   - lyx
-  - fira
   - skaldjur
   - fisk
 ---
