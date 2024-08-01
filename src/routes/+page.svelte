@@ -32,7 +32,7 @@
     <ImageBanner imagePath="/src/uploads/startpage-banner.jpg">
       <BannerHeader>
         <h1>{config.title}</h1>
-        <h2>{config.description} recept</h2>
+        <h2>{config.description}</h2>
       </BannerHeader>
       <Searchbox />
     </ImageBanner>
