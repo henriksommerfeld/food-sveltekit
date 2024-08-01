@@ -4,7 +4,7 @@ description: Gott som tillbehör till rökta räkor, soppa eller liknande.
 tools: ""
 hidden: false
 category: Tillbehör
-featuredimage: /static/uploads/röktaräkor.jpg
+featuredimage: /static/uploads/vitloksbrod.jpg
 featuredimagetheme: 2
 servings: 4
 servingslabel: portioner
