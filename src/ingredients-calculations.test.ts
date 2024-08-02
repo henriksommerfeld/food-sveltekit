@@ -80,7 +80,7 @@ describe('getQuantity', () => {
       const expected = {
         name: 'flower',
         quantity: 1.5,
-        unit: 'kg'
+        unit: QuantityUnit.kilo
       }
       expect(getQuantity(ingredient, 4, 12)).toEqual(expected)
     })
@@ -94,39 +94,53 @@ describe('getQuantity', () => {
       const expected = {
         name: 'flower',
         quantity: 800,
-        unit: 'g'
+        unit: QuantityUnit.gram
       }
       expect(getQuantity(ingredient, 10, 8)).toEqual(expected)
     })
   })
 
   describe('volume', () => {
-    it('msk => tsk', () => {
+    it('cl => cl', () => {
       const ingredient = {
-        name: 'water',
+        name: 'bacardi',
+        quantity: 4,
+        unit: QuantityUnit.centiliter
+      }
+      const expected = {
+        name: 'bacardi',
+        quantity: 4,
+        unit: QuantityUnit.centiliter
+      }
+      expect(getQuantity(ingredient, 1, 1)).toEqual(expected)
+    })
+
+    it('tsk => tsk', () => {
+      const ingredient = {
+        name: 'bakpulver',
+        quantity: 0.5,
+        unit: QuantityUnit.teaspoon
+      }
+      const expected = {
+        name: 'bakpulver',
+        quantity: 0.5,
+        unit: QuantityUnit.teaspoon
+      }
+      expect(getQuantity(ingredient, 4, 4)).toEqual(expected)
+    })
+
+    it('msk => msk', () => {
+      const ingredient = {
+        name: 'kakao',
         quantity: 1,
         unit: QuantityUnit.tablespoon
       }
       const expected = {
-        name: 'water',
-        quantity: 2,
-        unit: 'tsk'
-      }
-      expect(getQuantity(ingredient, 3, 2)).toEqual(expected)
-    })
-
-    it('msk => dl', () => {
-      const ingredient = {
-        name: 'water',
-        quantity: 2,
+        name: 'kakao',
+        quantity: 1,
         unit: QuantityUnit.tablespoon
       }
-      const expected = {
-        name: 'water',
-        quantity: 1.2,
-        unit: 'dl'
-      }
-      expect(getQuantity(ingredient, 2, 8)).toEqual(expected)
+      expect(getQuantity(ingredient, 4, 4)).toEqual(expected)
     })
 
     it('dl => dl', () => {
@@ -143,18 +157,32 @@ describe('getQuantity', () => {
       expect(getQuantity(ingredient, 4, 4)).toEqual(expected)
     })
 
-    it('cl => cl', () => {
+    it('msk => tsk', () => {
       const ingredient = {
-        name: 'bacardi',
-        quantity: 4,
-        unit: QuantityUnit.centiliter
+        name: 'water',
+        quantity: 1,
+        unit: QuantityUnit.tablespoon
       }
       const expected = {
-        name: 'bacardi',
-        quantity: 4,
-        unit: QuantityUnit.centiliter
+        name: 'water',
+        quantity: 2,
+        unit: QuantityUnit.teaspoon
       }
-      expect(getQuantity(ingredient, 1, 1)).toEqual(expected)
+      expect(getQuantity(ingredient, 3, 2)).toEqual(expected)
+    })
+
+    it('msk => dl', () => {
+      const ingredient = {
+        name: 'water',
+        quantity: 2,
+        unit: QuantityUnit.tablespoon
+      }
+      const expected = {
+        name: 'water',
+        quantity: 1.2,
+        unit: QuantityUnit.deciliter
+      }
+      expect(getQuantity(ingredient, 2, 8)).toEqual(expected)
     })
   })
 })

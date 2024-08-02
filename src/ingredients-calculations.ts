@@ -133,7 +133,7 @@ function volumeInBestUnit(ingredient: Ingredient, enteredUnit: QuantityUnit): In
     }
   }
 
-  if (allowSpoon && ingredient.quantity >= 5) {
+  if (allowSpoon && ingredient.quantity >= 2.5) {
     return {
       quantity: ingredient.quantity / 5,
       unit: QuantityUnit.teaspoon,
