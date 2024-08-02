@@ -1,11 +1,11 @@
 ---
 title: Kyckling- och ädelostsås
-description: ""
-tools: ""
+description: ''
+tools: ''
 hidden: false
 category: Huvudrätt
 featuredimage: /static/uploads/img_3434.jpg
-featuredimagetheme: "2"
+featuredimagetheme: '2'
 servings: 4
 servingslabel: portioner
 ingredients:
@@ -72,6 +72,6 @@ tags:
   - kyckling
   - mögelost
   - ädelost
-url: ""
+url: ''
 templateKey: recept
 ---

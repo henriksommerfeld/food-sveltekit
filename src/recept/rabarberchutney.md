@@ -69,6 +69,7 @@ tags:
   - rabarber
   - chutney
 templateKey: recept
-url: ""
+url: ''
 ---
+
 ![skivade råa rabarber i gryta](/uploads/img_0880.jpeg)

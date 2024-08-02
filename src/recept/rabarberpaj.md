@@ -1,11 +1,11 @@
 ---
 title: Rabarberpaj
-description: ""
-tools: ""
+description: ''
+tools: ''
 hidden: false
 category: Bakning
 featuredimage: /static/uploads/rabarberpaj.jpg
-featuredimagetheme: "1"
+featuredimagetheme: '1'
 servings: 6
 servingslabel: portioner
 ingredients:
@@ -58,7 +58,7 @@ ingredients:
             ingredientname: ljus sirap
 instructions:
   - partinstructions:
-      partinstructionsname: ""
+      partinstructionsname: ''
       partinstructionslist:
         - instruction: Ansa och skölj rabarbern
         - instruction: Skär rabarbern i ca 4 cm stora bitar
@@ -79,4 +79,5 @@ tags:
   - rabarber
   - paj
 ---
+
 Servera med vaniljglass eller -sås.

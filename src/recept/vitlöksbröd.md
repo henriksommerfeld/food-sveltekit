@@ -1,7 +1,7 @@
 ---
 title: Vitlöksbröd
 description: Gott som tillbehör till rökta räkor, soppa eller liknande.
-tools: ""
+tools: ''
 hidden: false
 category: Tillbehör
 featuredimage: /static/uploads/vitloksbrod.jpg
@@ -34,7 +34,7 @@ ingredients:
             ingredientname: Salt
 instructions:
   - partinstructions:
-      partinstructionsname: ""
+      partinstructionsname: ''
       partinstructionslist:
         - instruction: Sätt ugnen på 200°. Dela baguetten på längden.
         - instruction: Mosa smöret med vitlöken på en tallrik och vänd runt med persiljan.

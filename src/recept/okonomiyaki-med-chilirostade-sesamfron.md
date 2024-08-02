@@ -1,6 +1,6 @@
 ---
 templateKey: recept
-url: ""
+url: ''
 title: Okonomiyaki med chilirostade sesamfrön
 description: Japansk snabbmat!
 tools: En liten eller mellanstor stekpanna
