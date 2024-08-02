@@ -1,3 +1,4 @@
+import { equalsIgnoreCase } from '$lib/compare.js'
 import { getRecipes, getTags } from '$lib/database'
 import { error } from '@sveltejs/kit'
 
@@ -8,7 +9,7 @@ export async function load({ params }) {
   const allRecipes = await getRecipes()
   const recipes = allRecipes.filter(x =>
     x.tags.some(t =>
-      !t.localeCompare(tag.name, 'sv', { sensitivity: 'base' })
+      equalsIgnoreCase(tag.name, t)
     )
   )
   return { tag, recipes }

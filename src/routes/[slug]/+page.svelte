@@ -9,6 +9,7 @@
   import { getImage } from '$lib/image'
   import { servingsUnitFormatted } from '$lib/servings'
   import Searchbox from '../searchbox.svelte'
+  import { equalsIgnoreCase } from '$lib/compare'
 
   export let data: PageData
   export const { recipe, tags } = data
@@ -111,7 +112,7 @@
           <div class="tags">
             <span />
             {#each recipe.tags as tag, index}
-              {@const slug = tags.find((t) => t.name === tag)?.slug}
+              {@const slug = tags.find((t) => equalsIgnoreCase(t.name, tag))?.slug}
               {#if slug}
                 <a href={`/taggar/${slug}`}>{tag}</a>{#if index + 1 < recipe.tags.length}, &nbsp{/if}
               {/if}
