@@ -6,8 +6,8 @@
   import Searchbox from '../searchbox.svelte'
   import TagBackground from '../tag-background.svelte'
   import TagPageSection from '../tag-page-section.svelte'
-  import type { PageData } from './$types'
   import TagSvg from '/src/assets/tag-grey500.svg'
+  import type { PageData } from './$types'
 
   export let data: PageData
   const tags = data.tags

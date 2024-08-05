@@ -1,15 +1,15 @@
 <script lang="ts">
-  import PageWrapper from '../page-wrapper.svelte'
   import Image from '../image.svelte'
   import ImageBanner from '../image-banner.svelte'
   import Ingredients from '../ingredients.svelte'
   import Instructions from '../instructions.svelte'
+  import PageWrapper from '../page-wrapper.svelte'
+  import Searchbox from '../searchbox.svelte'
   import type { PageData } from './$types'
+  import { equalsIgnoreCase } from '$lib/compare'
   import { formatDuration } from '$lib/time'
   import { getImage } from '$lib/image'
   import { servingsUnitFormatted } from '$lib/servings'
-  import Searchbox from '../searchbox.svelte'
-  import { equalsIgnoreCase } from '$lib/compare'
 
   export let data: PageData
   export const { recipe, tags } = data

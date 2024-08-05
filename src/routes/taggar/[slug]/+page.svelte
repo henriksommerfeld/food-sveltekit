@@ -1,14 +1,14 @@
 <script lang="ts">
   import BannerHeader from '../../banner-header.svelte'
   import BannerMainContainer from '../../banner-main-container.svelte'
+  import DocumentSvg from '/src/assets/document-grey500.svg'
   import ImageBanner from '../../image-banner.svelte'
   import PageWrapper from '../../page-wrapper.svelte'
   import Searchbox from '../../searchbox.svelte'
   import TagBackground from '../../tag-background.svelte'
   import TagPageSection from '../../tag-page-section.svelte'
-  import type { PageData } from './$types'
-  import DocumentSvg from '/src/assets/document-grey500.svg'
   import TagSvg from '/src/assets/tag-grey500.svg'
+  import type { PageData } from './$types'
 
   export let data: PageData
   const { tag, recipes } = data

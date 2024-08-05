@@ -1,8 +1,8 @@
 <script lang="ts">
-  import { searchAgainstIndex } from '$lib/search'
-  import type { RecipeSearchResult } from '$lib/search'
-  import SearchForm from './search-form.svelte'
   import SearchDialog from './search-dialog.svelte'
+  import SearchForm from './search-form.svelte'
+  import type { RecipeSearchResult } from '$lib/search'
+  import { searchAgainstIndex } from '$lib/search'
 
   $: searchTerm = ''
   $: results = new Array<RecipeSearchResult>()

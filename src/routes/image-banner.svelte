@@ -1,6 +1,6 @@
 <script lang="ts">
-  import { onMount } from 'svelte'
   import Banner from './banner.svelte'
+  import { onMount } from 'svelte'
   import { urlSchema } from '$lib/image'
 
   export let imagePath: string

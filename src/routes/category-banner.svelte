@@ -1,8 +1,8 @@
 <script lang="ts">
-  import type { NavLink } from '$lib/constants'
-  import ImageBanner from './image-banner.svelte'
   import BannerHeader from './banner-header.svelte'
+  import ImageBanner from './image-banner.svelte'
   import Searchbox from './searchbox.svelte'
+  import type { NavLink } from '$lib/constants'
 
   export let category: NavLink
   export let recipeCount: number

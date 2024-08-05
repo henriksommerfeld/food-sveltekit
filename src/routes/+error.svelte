@@ -1,6 +1,6 @@
 <script>
-  import { page } from '$app/stores'
   import * as config from '$lib/config'
+  import { page } from '$app/stores'
 </script>
 
 <svelte:head>

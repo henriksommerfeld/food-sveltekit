@@ -1,12 +1,12 @@
 <script lang="ts">
-  import { getColor, getImage } from '$lib/image'
-  import type { RecipeSearchResult } from '$lib/search'
-  import ImageBanner from './image-banner.svelte'
   import BannerHeader from './banner-header.svelte'
-  import SearchForm from './search-form.svelte'
-  import CloseSvg from '/src/assets/close.svg'
-  import MenuGridImageLink from './menu-grid-image-link.svelte'
   import BannerMainContainer from './banner-main-container.svelte'
+  import CloseSvg from '/src/assets/close.svg'
+  import ImageBanner from './image-banner.svelte'
+  import MenuGridImageLink from './menu-grid-image-link.svelte'
+  import SearchForm from './search-form.svelte'
+  import type { RecipeSearchResult } from '$lib/search'
+  import { getColor, getImage } from '$lib/image'
 
   export let results = new Array<RecipeSearchResult>()
   export let searchTerm = ''

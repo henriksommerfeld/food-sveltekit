@@ -1,11 +1,11 @@
 <script lang="ts">
-  import PageWrapper from '../../page-wrapper.svelte'
   import BannerMainContainer from '../../banner-main-container.svelte'
   import CategoryBanner from '../../category-banner.svelte'
-  import type { PageData } from './$types'
-  import { getColor, getImage } from '$lib/image'
   import MenuGrid from '../../menu-grid.svelte'
   import MenuGridImageLink from '../../menu-grid-image-link.svelte'
+  import PageWrapper from '../../page-wrapper.svelte'
+  import type { PageData } from './$types'
+  import { getColor, getImage } from '$lib/image'
 
   export let data: PageData
   const recipes = data.recipes

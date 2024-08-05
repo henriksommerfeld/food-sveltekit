@@ -1,13 +1,13 @@
 <script lang="ts">
   import * as config from '$lib/config'
   import BannerHeader from './banner-header.svelte'
+  import BannerMainContainer from './banner-main-container.svelte'
   import ImageBanner from './image-banner.svelte'
+  import MenuGridImageLink from './menu-grid-image-link.svelte'
   import PageWrapper from './page-wrapper.svelte'
+  import Searchbox from './searchbox.svelte'
   import { CategoryLinks } from '$lib/constants'
   import { getColor, getImage } from '$lib/image'
-  import Searchbox from './searchbox.svelte'
-  import MenuGridImageLink from './menu-grid-image-link.svelte'
-  import BannerMainContainer from './banner-main-container.svelte'
 
   const lqipImages = import.meta.glob('/src/uploads/*1x1.jpg', {
     import: 'default',

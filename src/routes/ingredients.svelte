@@ -1,7 +1,7 @@
 <script lang="ts">
-  import { servingsUnitFormatted } from '$lib/servings'
-  import type { RecipeFrontmatter } from '$lib/types'
   import IngredientsGroup from './ingredients-group.svelte'
+  import type { RecipeFrontmatter } from '$lib/types'
+  import { servingsUnitFormatted } from '$lib/servings'
 
   export let recipe: RecipeFrontmatter
   export let servings = recipe.servings
