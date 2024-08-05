@@ -1,10 +1,10 @@
 import { markdownFileSchema, type Recipe, type RecipeFrontmatter, recipeSchema } from '$lib/types'
 import slugify from '@sindresorhus/slugify'
 
-const recipes = new Array<Recipe>()
+const cachedRecipes = new Array<Recipe>()
 
 export async function getRecipes() {
-  if (recipes.length) return recipes
+  if (cachedRecipes.length) return cachedRecipes
 
   const paths = import.meta.glob('/src/recept/*.md', { eager: true })
 
@@ -26,7 +26,7 @@ export async function getRecipes() {
       })
       if (recipe.success) {
         if (!recipe.data.hidden) {
-          recipes.push(recipe.data)
+          cachedRecipes.push(recipe.data)
         }
       } else {
         console.dir(recipe.error, { depth: 10 })
@@ -35,27 +35,27 @@ export async function getRecipes() {
     }
   }
 
-  recipes.sort((a, b) => a.title.localeCompare(b.title, 'sv'))
-  return recipes
+  cachedRecipes.sort((a, b) => a.title.localeCompare(b.title, 'sv'))
+  return cachedRecipes
 }
 
-let sortedArray = new Array<{ count: number; name: string; slug: string }>()
+const cachedTags = new Array<{ count: number; name: string; slug: string }>()
 
 export async function getTags() {
-  if (sortedArray.length) return sortedArray
+  if (cachedTags.length) return cachedTags
   const recipes = await getRecipes()
-  const allTags = recipes.flatMap((recipe) => recipe.tags.map((t) => t.toLowerCase()))
+  const allTags = recipes.flatMap((r) => r.tags.map((t) => t.toLowerCase()))
   const tagCounts = allTags.reduce(
     (tags, tag) => ({ ...tags, [tag]: (tags[tag] || 0) + 1 }),
     {} as Record<string, number>
   )
   const sortedTagNames = Object.keys(tagCounts).toSorted()
   sortedTagNames.forEach((name) => {
-    sortedArray.push({
+    cachedTags.push({
       count: tagCounts[name],
       name: name,
       slug: slugify(name)
     })
   })
-  return sortedArray
+  return cachedTags
 }
