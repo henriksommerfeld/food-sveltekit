@@ -44,13 +44,13 @@ const cachedTags = new Array<{ count: number; name: string; slug: string }>()
 export async function getTags() {
   if (cachedTags.length) return cachedTags
   const recipes = await getRecipes()
-  const allTags = recipes.flatMap((r) => r.tags.map((t) => t.toLowerCase()))
+  const allTags = recipes.flatMap(r => r.tags.map(t => t.toLowerCase()))
   const tagCounts = allTags.reduce(
     (tags, tag) => ({ ...tags, [tag]: (tags[tag] || 0) + 1 }),
     {} as Record<string, number>
   )
   const sortedTagNames = Object.keys(tagCounts).toSorted()
-  sortedTagNames.forEach((name) => {
+  sortedTagNames.forEach(name => {
     cachedTags.push({
       count: tagCounts[name],
       name: name,

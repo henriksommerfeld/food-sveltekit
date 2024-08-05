@@ -18,7 +18,7 @@ const assert = (images: Record<string, unknown>, path: string) => {
   if (images[path]) return
   const bestMatch = Object.entries(images)
     .map(([key]) => key)
-    .find((key) => key.includes(path))
+    .find(key => key.includes(path))
   bestMatch && console.log(`Found image with path '${bestMatch}'`)
   throw new Error(`Image not found: ${path}`)
 }

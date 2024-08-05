@@ -57,7 +57,7 @@ export const recipeFrontmatterSchema = z.object({
   description: z.string().nullish(),
   category: z.enum(Categories),
   tools: z.string().nullish(),
-  featuredimage: z.string().transform((x) => x.replace('/static', '')),
+  featuredimage: z.string().transform(x => x.replace('/static', '')),
   featuredimagetheme: z.coerce.number().min(1).max(2),
   servings: z.number().min(1),
   servingslabel: z.string().default('portioner'),
@@ -87,13 +87,13 @@ export const recipeFrontmatterSchema = z.object({
         })
       })
     )
-    .transform((data) => {
+    .transform(data => {
       const ingredients = { ingredientsGroup: new Array<IngredientsGroup>() }
 
-      data.forEach((x) => {
+      data.forEach(x => {
         const ingredientList = new Array<Ingredient>()
 
-        x.partingredients?.partingredientslist?.forEach((y) => {
+        x.partingredients?.partingredientslist?.forEach(y => {
           if (y.ingredient) {
             ingredientList.push({
               name: y.ingredient.ingredientname,
@@ -124,13 +124,13 @@ export const recipeFrontmatterSchema = z.object({
         })
       })
     )
-    .transform((data) => {
+    .transform(data => {
       const instructions: Instructions = { instructionsGroup: [] }
 
-      data.forEach((x) => {
+      data.forEach(x => {
         const instructionsList = new Array<string>()
 
-        x.partinstructions?.partinstructionslist?.forEach((y) => {
+        x.partinstructions?.partinstructionslist?.forEach(y => {
           instructionsList.push(y.instruction)
         })
 
@@ -145,7 +145,7 @@ export const recipeFrontmatterSchema = z.object({
   tags: z
     .array(z.string())
     .nullish()
-    .transform((x) => x ?? [])
+    .transform(x => x ?? [])
 })
 
 export const markdownFileSchema = z.object({

@@ -27,7 +27,7 @@ const ensureIndex = async () => {
     id: index,
     title: file.title,
     slug: file.slug,
-    ingredients: file.ingredients.ingredientsGroup.flatMap((x) => x.ingredients.map((y) => y.name)),
+    ingredients: file.ingredients.ingredientsGroup.flatMap(x => x.ingredients.map(y => y.name)),
     tags: file.tags,
     featuredimage: file.featuredimage,
     featuredimagetheme: file.featuredimagetheme
