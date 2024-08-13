@@ -74,8 +74,10 @@ instructions:
         - instruction: Rör ihop margarinet och sockret ordentligt till en krämig smet
         - instruction: Tillsätt äggen, ett i taget och vispa ihop
         - instruction: Blanda de torra ingredienserna i en separat bunke. Vetemjöl, bakpulver, vaniljsocker och strösocker.
-        - instruction: 'Rör ner de torra ingredienserna i smeten och tillsätt de resterande ingredienserna: citronskal, citronsaft och havredryck.'
-        - instruction: Fördela smeten jämnt i formarna och grädda mitt i ugnen i ca. 15 minuter
+        - instruction: Rör ner de torra ingredienserna i smeten
+        - instruction: 'Tillsätt de resterande ingredienserna: citronskal, citronsaft och havredryck, men vänta med rabarberna.'
+        - instruction: Fördela smeten jämnt i formarna och lägg i rabarberna
+        - instruction: Grädda mitt i ugnen i ca. 15 minuter
 timepassive:
   dayspassive: 0
   hourspassive: 0
