@@ -70,6 +70,7 @@
     padding: 0;
     display: flex;
     cursor: pointer;
+    touch-action: manipulation;
   }
   .servings-adjuster-info {
     padding: var(--spacing-default);
