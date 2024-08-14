@@ -3,7 +3,6 @@
   import ImageBanner from '../image-banner.svelte'
   import Ingredients from '../ingredients.svelte'
   import Instructions from '../instructions.svelte'
-  import KeepAwake from '../keep-awake.svelte'
   import PageWrapper from '../page-wrapper.svelte'
   import Searchbox from '../searchbox.svelte'
   import type { PageData } from './$types'
@@ -37,7 +36,6 @@
 </svelte:head>
 
 <PageWrapper editLink={`/admin/#/collections/recept/entries/${recipe.slug}`}>
-  <KeepAwake />
   <div class="page">
     <ImageBanner {imagePath}>
       <header>
