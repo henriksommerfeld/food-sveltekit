@@ -1,12 +1,23 @@
 <script lang="ts">
   import { onMount } from 'svelte'
 
-  const requestLock = () => navigator.wakeLock.request('screen')
+  let isLocked = false
+
+  const requestLock = async () => {
+    const wakeLock = await navigator.wakeLock.request('screen')
+    isLocked = true
+    wakeLock.addEventListener('release', () => {
+      isLocked = false
+    })
+  }
 
   onMount(async () => {
     if (!('wakeLock' in navigator)) return
 
-    await requestLock()
+    document.addEventListener('click', async () => {
+      if (isLocked) return
+      await requestLock()
+    })
 
     document.addEventListener('visibilitychange', async () => {
       if (document.visibilityState === 'visible') {
