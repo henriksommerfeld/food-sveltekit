@@ -1,27 +1,10 @@
 <script lang="ts">
   import { onMount } from 'svelte'
 
-  let lock: WakeLockSentinel
-
-  const requestLock = async () => {
-    lock = await navigator.wakeLock.request('screen')
-    lock.addEventListener('release', () => {
-      console.log('Released')
-      isActive = false
-    })
-
-    isActive = true
-    console.log('Activated')
-    return isActive
-  }
-
-  $: isActive = false
+  const requestLock = () => navigator.wakeLock.request('screen')
 
   onMount(async () => {
-    if (!('wakeLock' in navigator)) {
-      console.log('😔')
-      return
-    }
+    if (!('wakeLock' in navigator)) return
 
     await requestLock()
 
@@ -32,5 +15,3 @@
     })
   })
 </script>
-
-<h1>Lock: {isActive}</h1>

@@ -4,7 +4,6 @@
   import Searchbox from '../searchbox.svelte'
   import { onMount } from 'svelte'
   import { urlSchema } from '$lib/image'
-  import KeepAwake from '../keep-awake.svelte'
 
   const title = `Gått vilse? (404) | ${config.title}`
   const lqipImages = import.meta.glob('/src/assets/*{.webp,.jpg,.jpeg,.png,.heif,.heic}', {
@@ -38,7 +37,6 @@
 </svelte:head>
 
 <div class="page" style="--image: url({image})">
-  <KeepAwake />
   <div class="page-content">
     <header>
       <HomeLink />
