@@ -1,6 +1,6 @@
 ---
 title: Chili con carne
-description: Chili con carne är en mustig och het gryta med köttfärs, chili, vita bönor, paprika och tomater. Detta klassiska mexikanska recept är både lättlagat och uppskattat av dina middagsgäster.
+description: ""
 tools: ""
 hidden: false
 category: Huvudrätt
@@ -73,6 +73,6 @@ timeactive:
 tags:
   - kött
   - chili
-url: ""
 templateKey: recept
+url: ""
 ---
