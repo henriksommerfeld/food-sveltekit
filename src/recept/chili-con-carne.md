@@ -1,11 +1,7 @@
 ---
-templateKey: recept
-url: ''
 title: Chili con carne
-description: >-
-  Chili con carne är en mustig och het gryta med köttfärs, chili, vita bönor,
-  paprika och tomater. Detta klassiska mexikanska recept är både lättlagat och
-  uppskattat av dina middagsgäster.
+description: Chili con carne är en mustig och het gryta med köttfärs, chili, vita bönor, paprika och tomater. Detta klassiska mexikanska recept är både lättlagat och uppskattat av dina middagsgäster.
+tools: ""
 hidden: false
 category: Huvudrätt
 featuredimage: /static/uploads/chili-con-carne.jpg
@@ -14,64 +10,59 @@ servings: 4
 servingslabel: portioner
 ingredients:
   - partingredients:
+      partingredientsname: Grytan
       partingredientslist:
         - ingredient:
             ingredientamount: 2
-            ingredientname: gula lökar
             unit: st
+            ingredientname: gula lökar
         - ingredient:
             ingredientamount: 350
-            ingredientname: nötfärs
             unit: g
+            ingredientname: nötfärs
         - ingredient:
             ingredientamount: 1
-            ingredientname: olja
             unit: msk
+            ingredientname: olja
         - ingredient:
             ingredientamount: 0
-            ingredientname: "\U0001F336färsk eller torkad chili (ju mer, desto bättre)"
             unit: st
+            ingredientname: 🌶färsk eller torkad chili (ju mer, desto bättre)
         - ingredient:
             ingredientamount: 1
-            ingredientname: paprikapulver
             unit: tsk
+            ingredientname: paprikapulver
         - ingredient:
             ingredientamount: 1
-            ingredientname: svartpeppar
             unit: ml
-        - ingredient:
-            ingredientamount: 0.75
-            ingredientname: salt
-            unit: l
+            ingredientname: svartpeppar
         - ingredient:
             ingredientamount: 1
-            ingredientname: soja
-            unit: msk
-        - ingredient:
-            ingredientamount: 1
-            ingredientname: burk hela tomater (à 400 g)
             unit: st
+            ingredientname: köttbuljongtärning
+        - ingredient:
+            ingredientamount: 1
+            unit: msk
+            ingredientname: japansk soja
+        - ingredient:
+            ingredientamount: 1
+            unit: st
+            ingredientname: burk hela tomater (à 400 g)
         - ingredient:
             ingredientamount: 2
-            ingredientname: burkar vita bönor i tomatsås (à 440 g)
             unit: st
-      partingredientsname: Grytan
+            ingredientname: burkar vita bönor i tomatsås (à 440 g)
 instructions:
   - partinstructions:
+      partinstructionsname: Grytan
       partinstructionslist:
         - instruction: Skala och hacka lökarna
-        - instruction: >-
-            Bryn färsen i oljan i en gryta, gärna av gjutjärn, tills den fått
-            fin färg
+        - instruction: Bryn färsen i oljan i en gryta, gärna av gjutjärn, tills den fått fin färg
         - instruction: Blanda ner löken och låt den steka med en stund
-        - instruction: 'Smaka av med chili, paprika, svartpeppar, salt och soja'
-        - instruction: >-
-            Tillsätt tomaterna och låt alltsammans koka ihop tills smaken är
-            mustig och röran blivit tjock. Ju längre koktid, desto fylligare
-            smak.
+        - instruction: Smaka av med chili, paprika, svartpeppar, salt och soja
+        - instruction: Tillsätt tomaterna och låt alltsammans koka ihop tills smaken är mustig och röran blivit tjock. Ju längre koktid, desto fylligare smak.
         - instruction: Tillsätt bönorna
         - instruction: Låt alltsammans bli varmt. Smaka av med mer kryddor om så behövs.
-      partinstructionsname: Grytan
 timepassive:
   dayspassive: 0
   hourspassive: 0
@@ -82,4 +73,6 @@ timeactive:
 tags:
   - kött
   - chili
+url: ""
+templateKey: recept
 ---
