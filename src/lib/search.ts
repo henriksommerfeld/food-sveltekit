@@ -15,12 +15,19 @@ export type RecipeSearchResult = {
 }
 
 let miniSearch: MiniSearch
+const stopWords = new Set(['med', 'och', 'eller', 'i'])
 
 const ensureIndex = async () => {
   if (miniSearch) return
   miniSearch = new MiniSearch({
     fields: ['title', 'tags', 'ingredients'],
-    storeFields: ['title', 'slug', 'featuredimage', 'featuredimagetheme']
+    storeFields: ['title', 'slug', 'featuredimage', 'featuredimagetheme'],
+    searchOptions: {
+      boost: { title: 2 },
+      fuzzy: 0.1,
+      prefix: true
+    },
+    processTerm: (term, _fieldName) => (stopWords.has(term) ? null : term.toLowerCase())
   })
   const allRecipes = await getRecipes()
   const searchableProps = allRecipes.map((file, index) => ({
