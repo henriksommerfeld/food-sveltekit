@@ -5,7 +5,7 @@ title: Pestopasta
 hidden: false
 category: Huvudrätt
 featuredimage: /static/uploads/pestopasta.jpg
-featuredimagetheme: 1
+featuredimagetheme: 2
 servings: 4
 servingslabel: portioner
 ingredients:

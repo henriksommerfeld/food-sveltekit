@@ -7,7 +7,7 @@ tools: Air fryer
 hidden: false
 category: Tillbehör
 featuredimage: /static/uploads/img_2816.jpeg
-featuredimagetheme: 1
+featuredimagetheme: 2
 servings: 6
 servingslabel: portioner
 ingredients:
@@ -69,4 +69,5 @@ tags:
   - kålrot
   - rotfrukter
   - mandel
+  - pommes
 ---

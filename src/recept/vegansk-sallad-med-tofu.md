@@ -1,11 +1,11 @@
 ---
 title: Vegansk sallad med tofu
-description: ""
-tools: ""
+description: ''
+tools: ''
 hidden: false
 category: Huvudrätt
 featuredimage: /static/uploads/VeganskSallad.jpg
-featuredimagetheme: "1"
+featuredimagetheme: '2'
 servings: 6
 servingslabel: portioner
 ingredients:

@@ -9,7 +9,7 @@ tools: Gasolbrännare, crème brûlée-formar
 hidden: false
 category: Efterrätt
 featuredimage: /static/uploads/vegcremebrule.jpg
-featuredimagetheme: 1
+featuredimagetheme: 2
 servings: 4
 servingslabel: portioner
 ingredients:
