@@ -1,7 +1,7 @@
 ---
-templateKey: recept
-url: ''
 title: Pestopasta
+description: ""
+tools: ""
 hidden: false
 category: Huvudrätt
 featuredimage: /static/uploads/pestopasta.jpg
@@ -20,10 +20,6 @@ ingredients:
             ingredientamount: 0
             unit: ml
             ingredientname: Olivolja
-        - ingredient:
-            ingredientamount: 0
-            unit: g
-            ingredientname: Pinjenötter
         - ingredient:
             ingredientamount: 250
             unit: g
@@ -45,13 +41,13 @@ instructions:
       partinstructionsname: Pastan
       partinstructionslist:
         - instruction: Koka pastan enligt förpackningen i saltat vatten.
-        - instruction: 'Ta av ca 1,5 dl av pastavattnet när det kokat klart och spara det '
+        - instruction: Ta av ca 1,5 dl av pastavattnet när det kokat klart och spara det
         - instruction: Hetta upp olivolja i en stek-/wokpanna
-        - instruction: Lägg i tomaterna och pinjenötterna och fräs i någon minut
+        - instruction: Lägg i tomaterna och fräs i någon minut
         - instruction: Häll i det sparde pastavattnet och låt puttra i ca 1 minut
         - instruction: Lägg i pastan, peston och blanda runt
         - instruction: Tillsätt salt & peppar
-        - instruction: 'Servera med riven parmesan efter behag '
+        - instruction: Servera med riven parmesan efter behag
 timepassive:
   dayspassive: 0
   hourspassive: 0
@@ -61,4 +57,6 @@ timeactive:
   minutesactive: 10
 tags:
   - pasta
+url: ""
+templateKey: recept
 ---
