@@ -17,12 +17,12 @@
 
   const title = `${recipe.title} | ${recipe.category}`
   const imagePath = `/src${recipe.featuredimage}`
-  const lqipImages = import.meta.glob('/src/uploads/*{.webp,.jpg,.jpeg,.png,.heif,.heic}', {
+  const lqipImages = import.meta.glob('/src/uploads/*', {
     import: 'default',
     eager: true,
     query: '?w=200&format=webp&inline&as=url&quality=10'
   })
-  const images = import.meta.glob('/src/uploads/*{.webp,.jpg,.jpeg,.png,.heif,.heic}', {
+  const images = import.meta.glob('/src/uploads/*', {
     import: 'default',
     eager: true,
     query: '?w=800;1500&format=webp&as=picture'

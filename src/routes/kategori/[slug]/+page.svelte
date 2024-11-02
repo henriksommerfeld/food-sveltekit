@@ -9,12 +9,12 @@
 
   export let data: PageData
   const recipes = data.recipes
-  const lqipImages = import.meta.glob('/src/uploads/*{.webp,.jpg,.jpeg,.png,.heif,.heic}', {
+  const lqipImages = import.meta.glob('/src/uploads/*', {
     import: 'default',
     eager: true,
     query: '?w=128&h=96&format=webp&inline&as=url&quality=10'
   })
-  const images = import.meta.glob('/src/uploads/*{.webp,.jpg,.jpeg,.png,.heif,.heic}', {
+  const images = import.meta.glob('/src/uploads/*', {
     import: 'default',
     eager: true,
     query: '?w=640;800&h=480;600&fit-cover&format=webp&as=picture'
