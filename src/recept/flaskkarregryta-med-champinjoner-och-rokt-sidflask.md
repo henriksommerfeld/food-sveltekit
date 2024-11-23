@@ -1,16 +1,16 @@
 ---
-templateKey: recept
-url: ''
 title: Fläskkarrégryta med champinjoner och rökt sidfläsk
 description: Går även bra att göra på vildsvinskött eller älg!
+tools: ""
 hidden: false
 category: Huvudrätt
 featuredimage: /static/uploads/img_3264.jpg
-featuredimagetheme: 1
+featuredimagetheme: "2"
 servings: 10
 servingslabel: portioner
 ingredients:
   - partingredients:
+      partingredientsname: Gryta
       partingredientslist:
         - ingredient:
             ingredientamount: 2
@@ -68,7 +68,6 @@ ingredients:
             ingredientamount: 4
             unit: tsk
             ingredientname: citronjuice
-      partingredientsname: Gryta
   - partingredients:
       partingredientsname: Persiljesås
       partingredientslist:
@@ -92,21 +91,12 @@ instructions:
   - partinstructions:
       partinstructionsname: Gör så här
       partinstructionslist:
-        - instruction: Hacka löken, pressa vitlöken. Fräs all lök i en stekpanna, den ska
-            bli mjuk och glansig. Lägg över löken i en gryta.
-        - instruction: 'Dela köttet i bitar, 2x2 cm. Stek lite i taget i stekpannan. Salta
-            och peppra. Lägg över det i grytan allt eftersom. '
-        - instruction: Skär morötterna i slantar. Tillsätt hälften av dem till köttet,
-            lägg resten åt sidan. Tillsätt vatten och rödvin, buljongtärningar
-            samt tomatpuré.
-        - instruction: Koka grytan under lock i ca. 2 timmar. Köttet ska bli mört. Dela
-            svampen i halvor (samt förväll eventuell torkad svamp) och tärna det
-            rökta sidfläsket.
-        - instruction: Stek svampen och fläsket i stekpannan. Tillsätt resten av
-            morötterna, svamp och sidfläsk när det återstår ca. 20 minuter.
-            Smaka av med citron.
-        - instruction: Blanda gräddfil, majonnäs, bladpersilja, salt och peppar till en
-            sås. Servera grytan med persiljesås, potatis och broccoli.
+        - instruction: Hacka löken, pressa vitlöken. Fräs all lök i en stekpanna, den ska bli mjuk och glansig. Lägg över löken i en gryta.
+        - instruction: Dela köttet i bitar, 2x2 cm. Stek lite i taget i stekpannan. Salta och peppra. Lägg över det i grytan allt eftersom.
+        - instruction: Skär morötterna i slantar. Tillsätt hälften av dem till köttet, lägg resten åt sidan. Tillsätt vatten och rödvin, buljongtärningar samt tomatpuré.
+        - instruction: Koka grytan under lock i ca. 2 timmar. Köttet ska bli mört. Dela svampen i halvor (samt förväll eventuell torkad svamp) och tärna det rökta sidfläsket.
+        - instruction: Stek svampen och fläsket i stekpannan. Tillsätt resten av morötterna, svamp och sidfläsk när det återstår ca. 20 minuter. Smaka av med citron.
+        - instruction: Blanda gräddfil, majonnäs, bladpersilja, salt och peppar till en sås. Servera grytan med persiljesås, potatis och broccoli.
 timepassive:
   dayspassive: 0
   hourspassive: 2
@@ -119,4 +109,7 @@ tags:
   - gryta
   - vilt
   - fläsk
+url: ""
+templateKey: recept
 ---
+
