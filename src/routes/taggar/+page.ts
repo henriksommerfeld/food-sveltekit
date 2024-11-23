@@ -6,6 +6,6 @@ export async function load() {
     const tags = await getTags()
     return { tags }
   } catch (e) {
-    throw error(404, `Could not find /taggar`)
+    error(404, `Could not find /taggar`);
   }
 }
