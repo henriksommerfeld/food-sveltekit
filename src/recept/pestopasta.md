@@ -40,7 +40,7 @@ instructions:
   - partinstructions:
       partinstructionsname: Pastan
       partinstructionslist:
-        - instruction: Koka pastan enligt förpackningen i saltat vatten.
+        - instruction: Koka pastan i saltat vatten någon minut kortare än enligt förpackningen
         - instruction: Ta av ca 1,5 dl av pastavattnet när det kokat klart och spara det
         - instruction: Hetta upp olivolja i en stek-/wokpanna
         - instruction: Lägg i tomaterna och fräs i någon minut
@@ -57,6 +57,7 @@ timeactive:
   minutesactive: 10
 tags:
   - pasta
-url: ""
 templateKey: recept
+url: ""
 ---
+
