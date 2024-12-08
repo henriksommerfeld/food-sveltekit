@@ -77,7 +77,7 @@
             <img src="/img/clock-wait.svg" alt="waiting time" />
             <div>
               Väntetid: {formatDuration(
-                0,
+                recipe.timepassive.dayspassive,
                 recipe.timepassive.hourspassive,
                 recipe.timepassive.minutespassive
               )}
