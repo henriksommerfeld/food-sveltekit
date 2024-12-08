@@ -6,8 +6,8 @@ hidden: false
 category: Bakning
 featuredimage: /static/uploads/pepparkakor.jpg
 featuredimagetheme: 2
-servings: 0
-servingslabel: kakor
+servings: 1
+servingslabel: burk 🤷
 ingredients:
   - partingredients:
       partingredientsname: Degen
