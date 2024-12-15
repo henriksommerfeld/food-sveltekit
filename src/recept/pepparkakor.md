@@ -6,8 +6,8 @@ hidden: false
 category: Bakning
 featuredimage: /static/uploads/pepparkakor.jpg
 featuredimagetheme: 2
-servings: 1
-servingslabel: burk 🤷
+servings: 1500
+servingslabel: gram
 ingredients:
   - partingredients:
       partingredientsname: Degen
@@ -69,7 +69,7 @@ timepassive:
   minutespassive: 0
 timeactive:
   hoursactive: 2
-  minutesactive: 0
+  minutesactive: 30
 tags: []
 ---
 
