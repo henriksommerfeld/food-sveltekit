@@ -70,7 +70,7 @@
     height: 100%;
     padding-top: 3rem;
 
-    @media (min-width: 550px) {
+    @media (min-width: 768px) {
       padding-top: initial;
     }
   }

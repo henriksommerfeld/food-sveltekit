@@ -161,6 +161,8 @@
     font-weight: 700;
     text-rendering: optimizeLegibility;
     font-size: 2rem;
+    word-wrap: break-word;
+    word-break: break-word;
     line-height: 1.1;
   }
   article {

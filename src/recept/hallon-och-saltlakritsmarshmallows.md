@@ -1,5 +1,5 @@
 ---
-title: Hallon och saltlakritsmarshmallows
+title: Hallon- och saltlakritsmarshmallows
 description: Gott och uppskattat julgodis
 tools: ""
 hidden: false
