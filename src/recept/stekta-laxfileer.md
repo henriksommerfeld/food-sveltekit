@@ -1,9 +1,7 @@
 ---
-templateKey: recept
-url: ''
-title: Stekt lax i sojasås
-description: 'Lättlagad, men god lax'
-tools: 'Rivjärn, stekpanna, stekspade, skål...'
+title: Sojalax
+description: Lättlagad, men god lax
+tools: Rivjärn, stekpanna, stekspade, skål...
 hidden: false
 category: Huvudrätt
 featuredimage: /static/uploads/laxfile.jpg
@@ -12,38 +10,34 @@ servings: 4
 servingslabel: portioner
 ingredients:
   - partingredients:
+      partingredientsname: Laxen
       partingredientslist:
         - ingredient:
             ingredientamount: 4
-            ingredientname: laxfiléer (tinade)
             unit: st
+            ingredientname: laxfiléer (tinade)
         - ingredient:
             ingredientamount: 2
-            ingredientname: ljus soja
             unit: dl
+            ingredientname: ljus soja
         - ingredient:
             ingredientamount: 50
-            ingredientname: färsk ingefära
             unit: g
+            ingredientname: färsk ingefära
         - ingredient:
             ingredientamount: 3
-            ingredientname: honung
             unit: tsk
-      partingredientsname: Laxen
+            ingredientname: honung
 instructions:
   - partinstructions:
+      partinstructionsname: Laxen
       partinstructionslist:
-        - instruction: 'Blanda sojan, honungen och riven ingefära i en skål'
-        - instruction: >-
-            Häll marinaden över laxbitarna och pensla dem så att marinaden
-            fastnar så bra som möjligt
+        - instruction: Blanda sojan, honungen och riven ingefära i en skål
+        - instruction: Häll marinaden över laxbitarna och pensla dem så att marinaden fastnar så bra som möjligt
         - instruction: Låt laxen gotta sig i marinaden så länge du orkar vänta
         - instruction: Sätt ugnen på 100°C
-        - instruction: >-
-            Stek laxbitarna på hög värme. 3 min på ena sidan, sedan 1 min på
-            andra sidan
+        - instruction: Stek laxbitarna på hög värme. 3 min på ena sidan, sedan 1 min på andra sidan
         - instruction: Sätt in laxen i ugnen i 10 min
-      partinstructionsname: Laxen
 timepassive:
   dayspassive: 0
   hourspassive: 0
@@ -54,4 +48,7 @@ timeactive:
 tags:
   - fisk
   - lax
+templateKey: recept
+url: ''
 ---
+
