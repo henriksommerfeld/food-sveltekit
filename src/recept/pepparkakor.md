@@ -5,7 +5,7 @@ tools: Kavel, bakbord, hushållsassistent underlättar
 hidden: false
 category: Bakning
 featuredimage: /static/uploads/pepparkakor.jpg
-servings: 1500
+servings: 1400
 servingslabel: gram
 ingredients:
   - partingredients:
