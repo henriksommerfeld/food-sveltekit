@@ -6,7 +6,6 @@ description: Rulltårta med chokladkräm
 hidden: false
 category: Efterrätt
 featuredimage: /static/uploads/rulltarta.jpg
-featuredimagetheme: 2
 servings: 1
 servingslabel: rulltårta
 ingredients:

@@ -7,7 +7,6 @@ tools: En stor stekpanna med lock
 hidden: false
 category: Frukost
 featuredimage: /static/uploads/shakshuka.jpg
-featuredimagetheme: 1
 servings: 6
 servingslabel: portioner
 ingredients:

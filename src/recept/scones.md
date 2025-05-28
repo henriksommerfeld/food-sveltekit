@@ -6,7 +6,6 @@ tools: ''
 hidden: false
 category: Bakning
 featuredimage: /static/uploads/scones.jpg
-featuredimagetheme: 2
 servings: 8
 servingslabel: scones
 ingredients:

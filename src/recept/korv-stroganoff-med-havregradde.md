@@ -7,7 +7,6 @@ description: En lättlagad klassiker som går hem hos hela familjen (recept frå
 hidden: false
 category: Huvudrätt
 featuredimage: /static/uploads/stroganoff.jpg
-featuredimagetheme: 2
 servings: 8
 servingslabel: portioner
 ingredients:

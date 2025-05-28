@@ -6,7 +6,6 @@ tools: Matberedare (mixer)
 hidden: false
 category: Huvudrätt
 featuredimage: /static/uploads/img_2252-4.jpeg
-featuredimagetheme: 2
 servings: 6
 servingslabel: portioner
 ingredients:

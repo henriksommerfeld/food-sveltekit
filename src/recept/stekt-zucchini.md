@@ -7,7 +7,6 @@ tools: 'Stekpanna, osthyvel'
 hidden: false
 category: Tillbehör
 featuredimage: /static/uploads/zucchini.jpg
-featuredimagetheme: 2
 servings: 1
 servingslabel: portioner
 ingredients:

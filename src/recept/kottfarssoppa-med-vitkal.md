@@ -6,7 +6,6 @@ description: ''
 hidden: false
 category: Huvudrätt
 featuredimage: /static/uploads/img_4634.jpg
-featuredimagetheme: 2
 servings: 9
 servingslabel: portioner
 ingredients:

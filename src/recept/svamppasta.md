@@ -6,7 +6,6 @@ description: Pasta med svampsås
 hidden: false
 category: Huvudrätt
 featuredimage: /static/uploads/svamppasta.jpg
-featuredimagetheme: 2
 servings: 8
 servingslabel: portioner
 ingredients:

@@ -7,7 +7,6 @@ tools: Bunke, stavmixer
 hidden: false
 category: Efterrätt
 featuredimage: /static/uploads/img_2134.jpeg
-featuredimagetheme: 2
 servings: 8
 servingslabel: chokladbollar
 ingredients:

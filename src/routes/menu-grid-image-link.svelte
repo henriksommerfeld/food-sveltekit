@@ -4,7 +4,6 @@
 
   export let href: string
   export let title: string
-  export let titleColor: string
   export let image: ImageType
 </script>
 
@@ -18,7 +17,7 @@
       lqip={image.lqip}
       alt=""
     />
-    <div class="title" style="--color: {titleColor}">
+    <div class="title">
       {title}
     </div>
   </a>
@@ -62,13 +61,11 @@
     position: absolute;
     width: 100%;
     padding: 1rem;
-    color: black;
-    background-color: rgba(255, 255, 255, 0.7);
+    color: white;
+    background-color: rgba(0, 0, 0, 0.3);
 
     @supports (-webkit-backdrop-filter: none) or (backdrop-filter: none) {
       backdrop-filter: blur(5px);
-      background-color: transparent;
-      color: var(--color);
     }
   }
 </style>

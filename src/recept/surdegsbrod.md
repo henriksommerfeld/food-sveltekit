@@ -8,7 +8,6 @@ description: >-
 hidden: false
 category: Bakning
 featuredimage: /static/uploads/surdegsbrod.jpg
-featuredimagetheme: 2
 servings: 1
 servingslabel: bröd
 ingredients:

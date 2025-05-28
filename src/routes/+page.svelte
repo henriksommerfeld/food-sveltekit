@@ -40,12 +40,7 @@
       <menu>
         {#each CategoryLinks as category}
           {@const image = getImage(images, lqipImages, category.imagePath1x1)}
-          <MenuGridImageLink
-            href={category.url}
-            title={category.title}
-            titleColor={getColor(category.thumbTheme)}
-            {image}
-          />
+          <MenuGridImageLink href={category.url} title={category.title} {image} />
         {/each}
       </menu>
     </section>

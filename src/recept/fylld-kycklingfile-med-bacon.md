@@ -5,7 +5,6 @@ title: Fylld kycklingfilé med bacon
 hidden: false
 category: Huvudrätt
 featuredimage: /static/uploads/img_0845-4.jpeg
-featuredimagetheme: 2
 servings: 4
 servingslabel: portioner
 ingredients:

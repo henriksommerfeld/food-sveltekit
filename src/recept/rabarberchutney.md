@@ -5,7 +5,6 @@ tools: Stor gryta (eller flera mindre) och glasburkar att förvara i när chutne
 hidden: false
 category: Tillbehör
 featuredimage: /static/uploads/img_0882.jpeg
-featuredimagetheme: 1
 servings: 1
 servingslabel: burk
 ingredients:

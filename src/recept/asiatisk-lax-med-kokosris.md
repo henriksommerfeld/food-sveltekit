@@ -5,7 +5,6 @@ tools: Air fryer
 hidden: false
 category: Huvudrätt
 featuredimage: /static/uploads/airfryerlax.jpg
-featuredimagetheme: 2
 servings: 4
 servingslabel: portioner
 ingredients:

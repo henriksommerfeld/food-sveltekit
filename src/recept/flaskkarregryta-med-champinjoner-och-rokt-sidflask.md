@@ -5,7 +5,6 @@ tools: ""
 hidden: false
 category: Huvudrätt
 featuredimage: /static/uploads/img_3264.jpg
-featuredimagetheme: "2"
 servings: 10
 servingslabel: portioner
 ingredients:

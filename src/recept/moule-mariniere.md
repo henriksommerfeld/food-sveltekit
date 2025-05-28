@@ -6,7 +6,6 @@ description: Snabb, enkel och lyxig rätt med musslor som får sjuda i vin och g
 hidden: false
 category: Huvudrätt
 featuredimage: /static/uploads/moulefritt.jpg
-featuredimagetheme: 2
 servings: 1
 servingslabel: portion
 ingredients:

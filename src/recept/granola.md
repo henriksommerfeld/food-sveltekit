@@ -11,7 +11,6 @@ tools: >-
 hidden: false
 category: Frukost
 featuredimage: /static/uploads/granola.jpg
-featuredimagetheme: 2
 servings: 16
 servingslabel: deciliter
 ingredients:

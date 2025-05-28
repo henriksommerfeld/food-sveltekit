@@ -6,7 +6,6 @@ description: Lasange utan mjölk
 hidden: false
 category: Huvudrätt
 featuredimage: /static/uploads/lasange.jpeg
-featuredimagetheme: 2
 servings: 6
 servingslabel: portioner
 ingredients:

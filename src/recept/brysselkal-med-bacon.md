@@ -6,7 +6,6 @@ description: Stekt brysselkål med bacon
 hidden: false
 category: Tillbehör
 featuredimage: /static/uploads/brysselkal-bacon.jpg
-featuredimagetheme: 2
 servings: 3
 servingslabel: portioner
 ingredients:

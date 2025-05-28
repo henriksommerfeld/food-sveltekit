@@ -5,7 +5,6 @@ tools: Rivjärn, stekpanna, stekspade, skål...
 hidden: false
 category: Huvudrätt
 featuredimage: /static/uploads/laxfile.jpg
-featuredimagetheme: 2
 servings: 4
 servingslabel: portioner
 ingredients:

@@ -5,7 +5,6 @@ tools: Muffinsplåt och muffinsformar
 hidden: false
 category: Bakning
 featuredimage: /static/uploads/rabarbermuffins.jpg
-featuredimagetheme: 2
 servings: 12
 servingslabel: st
 ingredients:

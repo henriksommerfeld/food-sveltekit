@@ -5,7 +5,6 @@ title: Broccoli- och majsfritters med rostad potatis och chilimajo
 hidden: false
 category: Huvudrätt
 featuredimage: /static/uploads/img_2111.jpeg
-featuredimagetheme: 2
 servings: 6
 servingslabel: portioner
 ingredients:

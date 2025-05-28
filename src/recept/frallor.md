@@ -6,7 +6,6 @@ description: 'Enkel och någorlunda snabb bakning! '
 hidden: false
 category: Bakning
 featuredimage: /static/uploads/frallor.jpeg
-featuredimagetheme: 1
 servings: 25
 servingslabel: bullar
 ingredients:

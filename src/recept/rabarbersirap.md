@@ -7,7 +7,6 @@ tools: ''
 hidden: false
 category: Tillbehör
 featuredimage: /static/uploads/img_1763.jpeg
-featuredimagetheme: 1
 servings: 5
 servingslabel: dl
 ingredients:

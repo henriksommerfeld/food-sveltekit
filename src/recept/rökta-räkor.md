@@ -5,7 +5,6 @@ tools: Elektrisk rökugn
 hidden: false
 category: Huvudrätt
 featuredimage: /static/uploads/röktaräkor.jpg
-featuredimagetheme: 2
 servings: 3
 servingslabel: portioner
 ingredients:

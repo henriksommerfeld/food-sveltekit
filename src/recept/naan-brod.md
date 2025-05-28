@@ -6,7 +6,6 @@ description: Detta recept är för vitlöks-naanbröd, men skippa vitlöken om d
 hidden: false
 category: Bakning
 featuredimage: /static/uploads/naanbro-d.jpg
-featuredimagetheme: 2
 servings: 4
 servingslabel: bröd
 ingredients:

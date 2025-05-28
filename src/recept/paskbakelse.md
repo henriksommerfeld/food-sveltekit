@@ -7,7 +7,6 @@ tools: ''
 hidden: false
 category: Efterrätt
 featuredimage: /static/uploads/paskbakelse.jpg
-featuredimagetheme: 1
 servings: 4
 servingslabel: bakelser
 ingredients:

@@ -7,7 +7,6 @@ tools: Crock pot
 hidden: false
 category: Huvudrätt
 featuredimage: /static/uploads/img_1646.jpeg
-featuredimagetheme: 1
 servings: 10
 servingslabel: portioner
 ingredients:

@@ -5,7 +5,6 @@ tools: Rund kakform med avtagbar sida
 hidden: false
 category: Efterrätt
 featuredimage: /static/uploads/IMG_8684.jpg
-featuredimagetheme: "1"
 servings: 12
 servingslabel: portioner
 ingredients:

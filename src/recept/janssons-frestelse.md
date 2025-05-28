@@ -7,7 +7,6 @@ tools: Ugn, ugnsform och matberedare
 hidden: false
 category: Huvudrätt
 featuredimage: /static/uploads/jansson.jpg
-featuredimagetheme: 2
 servings: 12
 servingslabel: portioner
 ingredients:

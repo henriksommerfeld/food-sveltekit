@@ -6,7 +6,6 @@ description: Galet god, sötsyrlig och fräsch. Perfekt fördrink i rabarbertide
 hidden: false
 category: Tillbehör
 featuredimage: /static/uploads/img_0958.jpeg
-featuredimagetheme: 2
 servings: 1
 servingslabel: drink(ar)
 ingredients:

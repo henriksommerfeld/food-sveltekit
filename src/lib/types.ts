@@ -58,7 +58,6 @@ export const recipeFrontmatterSchema = z.object({
   category: z.enum(Categories),
   tools: z.string().nullish(),
   featuredimage: z.string().transform(x => x.replace('/static', '')),
-  featuredimagetheme: z.coerce.number().min(1).max(2),
   servings: z.number().min(1),
   servingslabel: z.string().default('portioner'),
   timepassive: z.object({

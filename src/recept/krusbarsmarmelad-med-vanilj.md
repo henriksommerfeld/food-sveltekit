@@ -8,7 +8,6 @@ description: Kan varieras med olika bär, just denna gång hade vi även hallon
 hidden: false
 category: Tillbehör
 featuredimage: /static/uploads/krusba-rssylt.jpeg
-featuredimagetheme: 1
 servings: 2
 servingslabel: burkar
 ingredients:

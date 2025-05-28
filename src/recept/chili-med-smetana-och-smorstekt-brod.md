@@ -7,7 +7,6 @@ tools: 'En tjockbottnad gryta (förslagsvis gjutjärn), en stekpanna'
 hidden: false
 category: Huvudrätt
 featuredimage: /static/uploads/chiligryta.jpg
-featuredimagetheme: 2
 servings: 8
 servingslabel: portioner
 ingredients:

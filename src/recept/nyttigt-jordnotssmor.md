@@ -9,7 +9,6 @@ tools: ''
 hidden: false
 category: Tillbehör
 featuredimage: /static/uploads/img_6908.jpg
-featuredimagetheme: 2
 servings: 1
 servingslabel: burk
 ingredients:

@@ -6,7 +6,6 @@ description: Ännu ett gott recept från Zeinas kitchen (italienskt!)
 hidden: false
 category: Huvudrätt
 featuredimage: /static/uploads/img_9621.jpg
-featuredimagetheme: 2
 servings: 4
 servingslabel: portioner
 ingredients:

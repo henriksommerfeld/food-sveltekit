@@ -7,7 +7,6 @@ tools: ''
 hidden: false
 category: Huvudrätt
 featuredimage: /static/uploads/a-lggryta.jpg
-featuredimagetheme: 2
 servings: 8
 servingslabel: portioner
 ingredients:

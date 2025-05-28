@@ -7,7 +7,6 @@ tools: En liten eller mellanstor stekpanna
 hidden: false
 category: Huvudrätt
 featuredimage: /static/uploads/img_0802.jpeg
-featuredimagetheme: 2
 servings: 6
 servingslabel: portioner
 ingredients:

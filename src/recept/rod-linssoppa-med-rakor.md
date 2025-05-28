@@ -6,7 +6,6 @@ description: En krämig och mättande linssoppa på röda linser och kokosmjölk
 hidden: false
 category: Huvudrätt
 featuredimage: /static/uploads/rod_linssoppa_med_rakor.jpeg
-featuredimagetheme: 2
 servings: 8
 servingslabel: portioner
 ingredients:

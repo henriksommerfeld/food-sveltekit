@@ -6,7 +6,6 @@ description: 'Ris med ägg, japansk stil'
 hidden: true
 category: Huvudrätt
 featuredimage: /static/uploads/tamago_1x1.jpeg
-featuredimagetheme: 2
 servings: 1
 servingslabel: portioner
 ingredients:

@@ -7,7 +7,6 @@ tools: Två avlånga brödformer
 hidden: false
 category: Bakning
 featuredimage: /static/uploads/jolas-bread.jpg
-featuredimagetheme: 2
 servings: 2
 servingslabel: limpor
 ingredients:

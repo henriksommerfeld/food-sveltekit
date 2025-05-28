@@ -7,7 +7,6 @@ tools: Mixer och burkar att förvara i.
 hidden: false
 category: Tillbehör
 featuredimage: /static/uploads/katrinplommonpure.jpg
-featuredimagetheme: 2
 servings: 750
 servingslabel: gram
 ingredients:

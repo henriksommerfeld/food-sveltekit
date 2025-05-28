@@ -5,7 +5,6 @@ tools: ""
 hidden: false
 category: Tillbehör
 featuredimage: /static/uploads/brun_sas.jpg
-featuredimagetheme: 2
 servings: 4
 servingslabel: dl
 ingredients:

@@ -6,7 +6,6 @@ description: Vit fisk i ugn
 hidden: false
 category: Huvudrätt
 featuredimage: /static/uploads/pangasius.jpeg
-featuredimagetheme: 2
 servings: 4
 servingslabel: portioner
 ingredients:

@@ -6,7 +6,6 @@ description: Bröd som liknar banankaka
 hidden: false
 category: Bakning
 featuredimage: /static/uploads/banankaka.jpg
-featuredimagetheme: 1
 servings: 1
 servingslabel: bröd
 ingredients:

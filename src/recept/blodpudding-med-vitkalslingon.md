@@ -5,7 +5,6 @@ title: Blodpudding med vitkålslingon
 hidden: false
 category: Huvudrätt
 featuredimage: /static/uploads/img_0640.jpeg
-featuredimagetheme: 1
 servings: 6
 servingslabel: skivor
 ingredients:

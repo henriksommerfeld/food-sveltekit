@@ -5,7 +5,6 @@ title: Koreansk råbiff
 hidden: false
 category: Huvudrätt
 featuredimage: /static/uploads/img_1165-2.jpeg
-featuredimagetheme: 2
 servings: 4
 servingslabel: små portioner
 ingredients:

@@ -7,7 +7,6 @@ tools: En ugnsplåt
 hidden: false
 category: Huvudrätt
 featuredimage: /static/uploads/img_1522-2.jpeg
-featuredimagetheme: 2
 servings: 6
 servingslabel: portioner
 ingredients:

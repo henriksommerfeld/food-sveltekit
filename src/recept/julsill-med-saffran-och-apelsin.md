@@ -5,7 +5,6 @@ tools: Steriliserad glasburk
 hidden: false
 category: Huvudrätt
 featuredimage: /static/uploads/IMG_8645.jpg
-featuredimagetheme: 2
 servings: 1
 servingslabel: stor burk
 ingredients:

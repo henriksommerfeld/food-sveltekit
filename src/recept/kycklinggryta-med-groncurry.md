@@ -7,7 +7,6 @@ tools: Wookpanna eller gjutjärnsgryta
 hidden: false
 category: Huvudrätt
 featuredimage: /static/uploads/kycklinggro-ncurry.jpg
-featuredimagetheme: 2
 servings: 6
 servingslabel: portioner
 ingredients:

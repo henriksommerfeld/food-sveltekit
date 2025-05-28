@@ -6,7 +6,6 @@ description: 'Ursprungligen ett LCHF-recept, men kör man med potatis blir det j
 hidden: false
 category: Huvudrätt
 featuredimage: /static/uploads/lammfarsbiffar.jpg
-featuredimagetheme: 2
 servings: 4
 servingslabel: portioner
 ingredients:

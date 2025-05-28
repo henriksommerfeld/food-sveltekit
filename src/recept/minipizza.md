@@ -6,7 +6,6 @@ description: Köp färdig pizzadeg eller gör egen enligt nedan.
 hidden: false
 category: Huvudrätt
 featuredimage: /static/uploads/minipizza.jpg
-featuredimagetheme: 2
 servings: 4
 servingslabel: portioner
 ingredients:

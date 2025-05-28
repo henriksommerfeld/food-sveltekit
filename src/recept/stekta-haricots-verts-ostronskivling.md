@@ -6,7 +6,6 @@ description: 'Recept på Berns supersmarriga haricot verts! (Recept: Fredrik Kro
 hidden: false
 category: Tillbehör
 featuredimage: /static/uploads/haricotvers-och-ostronskivling.jpg
-featuredimagetheme: 2
 servings: 4
 servingslabel: portioner
 ingredients:

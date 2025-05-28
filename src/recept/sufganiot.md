@@ -7,7 +7,6 @@ tools: 'Hålslev, tjockbottnad kastrull för fritering, spritspåse'
 hidden: false
 category: Efterrätt
 featuredimage: /static/uploads/sufganiot.jpg
-featuredimagetheme: 2
 servings: 18
 servingslabel: munkar
 ingredients:

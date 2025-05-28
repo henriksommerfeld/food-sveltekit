@@ -6,7 +6,6 @@ description: Frasiga våfflor utan grädde
 hidden: false
 category: Huvudrätt
 featuredimage: /static/uploads/waffels.jpg
-featuredimagetheme: 2
 servings: 10
 servingslabel: våfflor
 ingredients:

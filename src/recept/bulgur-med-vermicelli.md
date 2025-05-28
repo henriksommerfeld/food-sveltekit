@@ -7,7 +7,6 @@ description: Recept från Zeinas kitchen. Väldigt gott som tillbehör till köt
 hidden: false
 category: Tillbehör
 featuredimage: /static/uploads/img_4596.jpg
-featuredimagetheme: 2
 servings: 4
 servingslabel: portioner
 ingredients:

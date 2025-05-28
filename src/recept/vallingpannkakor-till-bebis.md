@@ -8,7 +8,6 @@ description: 'Perfekt om du har vällingpulver hemma som du vill bli av med,
 hidden: false
 category: Huvudrätt
 featuredimage: /static/uploads/img_4921.jpg
-featuredimagetheme: 2
 servings: 10
 servingslabel: små pannkakor
 ingredients:

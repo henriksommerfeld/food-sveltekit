@@ -6,7 +6,6 @@ description: '"Världens godaste pastagratäng" från Zeinas Kitchen'
 hidden: false
 category: Huvudrätt
 featuredimage: /static/uploads/img_5537.jpeg
-featuredimagetheme: 2
 servings: 6
 servingslabel: portioner
 ingredients:

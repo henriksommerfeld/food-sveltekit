@@ -6,7 +6,6 @@ description: Flätat judiskt vetebröd
 hidden: false
 category: Bakning
 featuredimage: /static/uploads/challe.jpg
-featuredimagetheme: 2
 servings: 2
 servingslabel: bröd
 ingredients:

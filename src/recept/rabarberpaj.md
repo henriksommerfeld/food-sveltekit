@@ -5,7 +5,6 @@ tools: ''
 hidden: false
 category: Bakning
 featuredimage: /static/uploads/rabarberpaj.jpg
-featuredimagetheme: '1'
 servings: 6
 servingslabel: portioner
 ingredients:

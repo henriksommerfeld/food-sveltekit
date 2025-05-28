@@ -42,12 +42,7 @@
     <menu data-sveltekit-reload>
       {#each results as result}
         {@const image = getImage(images, lqipImages, `/src${result.featuredimage}`)}
-        <MenuGridImageLink
-          href={`/${result.slug}`}
-          title={result.title}
-          titleColor={getColor(result.featuredimagetheme)}
-          {image}
-        />
+        <MenuGridImageLink href={`/${result.slug}`} title={result.title} {image} />
       {/each}
     </menu>
   </BannerMainContainer>

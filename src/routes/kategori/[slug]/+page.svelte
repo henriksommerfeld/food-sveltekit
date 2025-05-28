@@ -33,12 +33,7 @@
     <MenuGrid>
       {#each recipes as recept}
         {@const image = getImage(images, lqipImages, `/src${recept.featuredimage}`)}
-        <MenuGridImageLink
-          href="/{recept.slug}"
-          title={recept.title}
-          titleColor={getColor(recept.featuredimagetheme)}
-          {image}
-        />
+        <MenuGridImageLink href="/{recept.slug}" title={recept.title} {image} />
       {/each}
     </MenuGrid>
   </BannerMainContainer>

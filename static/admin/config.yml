@@ -50,14 +50,6 @@ collections:
           hint: 'Det behövs en bild, men du kan välja en standardbild i biblioteket.'
         }
       - {
-          name: 'featuredimagetheme',
-          label: 'Tema för bildtext',
-          widget: 'select',
-          default: 2,
-          options: [{ label: 'Ljus', value: 1 }, { label: 'Mörk', value: 2 }],
-          hint: 'Ange om den valda bilden är mörk eller ljus i nederkant.'
-        }
-      - {
           label: 'Portioner/antal',
           name: 'servings',
           widget: number,

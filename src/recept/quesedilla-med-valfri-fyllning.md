@@ -7,7 +7,6 @@ tools: Stekpanna
 hidden: false
 category: Huvudrätt
 featuredimage: /static/uploads/img_4860.jpeg
-featuredimagetheme: 2
 servings: 1
 servingslabel: portioner
 ingredients:

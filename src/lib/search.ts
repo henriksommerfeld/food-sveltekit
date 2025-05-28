@@ -11,7 +11,6 @@ export type RecipeSearchResult = {
   title: string
   slug: string
   featuredimage: string
-  featuredimagetheme: number
 }
 
 let miniSearch: MiniSearch
@@ -21,7 +20,7 @@ const ensureIndex = async () => {
   if (miniSearch) return
   miniSearch = new MiniSearch({
     fields: ['title', 'tags', 'ingredients'],
-    storeFields: ['title', 'slug', 'featuredimage', 'featuredimagetheme'],
+    storeFields: ['title', 'slug', 'featuredimage'],
     searchOptions: {
       boost: { title: 2 },
       fuzzy: 0.1,
@@ -36,8 +35,7 @@ const ensureIndex = async () => {
     slug: file.slug,
     ingredients: file.ingredients.ingredientsGroup.flatMap(x => x.ingredients.map(y => y.name)),
     tags: file.tags,
-    featuredimage: file.featuredimage,
-    featuredimagetheme: file.featuredimagetheme
+    featuredimage: file.featuredimage
   }))
   miniSearch.addAll(searchableProps)
 }

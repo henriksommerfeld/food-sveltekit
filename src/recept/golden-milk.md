@@ -6,7 +6,6 @@ description: ''
 hidden: false
 category: Tillbehör
 featuredimage: /static/uploads/img_4062.jpeg
-featuredimagetheme: 2
 servings: 4
 servingslabel: glas
 ingredients:

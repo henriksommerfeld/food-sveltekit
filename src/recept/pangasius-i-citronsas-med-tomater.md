@@ -5,7 +5,6 @@ title: Pangasius i citronsås med tomater
 hidden: false
 category: Huvudrätt
 featuredimage: /static/uploads/img_3072.jpeg
-featuredimagetheme: 1
 servings: 4
 servingslabel: portioner
 ingredients:

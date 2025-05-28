@@ -8,7 +8,6 @@ tools: '2 stekspadar, en bunke, visp och en stekpanna.'
 hidden: false
 category: Huvudrätt
 featuredimage: /static/uploads/calzone-tallrik.jpg
-featuredimagetheme: 2
 servings: 2
 servingslabel: portioner
 ingredients:

@@ -6,7 +6,6 @@ description: Vegansk klassiker!
 hidden: false
 category: Huvudrätt
 featuredimage: /static/uploads/img_0769-2.jpeg
-featuredimagetheme: 2
 servings: 4
 servingslabel: portioner
 ingredients:

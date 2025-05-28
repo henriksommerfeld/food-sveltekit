@@ -5,7 +5,6 @@ title: Sambalkyckling med hummus och vitlöksrostade rotfrukter
 hidden: false
 category: Huvudrätt
 featuredimage: /static/uploads/img_1706-3.jpeg
-featuredimagetheme: 2
 servings: 6
 servingslabel: portioner
 ingredients:

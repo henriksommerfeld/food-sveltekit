@@ -5,7 +5,6 @@ tools: ""
 hidden: false
 category: Efterrätt
 featuredimage: /static/uploads/IMG_8612.jpg
-featuredimagetheme: "1"
 servings: 40
 servingslabel: godisar
 ingredients:

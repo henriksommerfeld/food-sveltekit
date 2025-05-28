@@ -6,7 +6,6 @@ description: 'Vår version av Paolo Robertos italienska recept på klassisk Carb
 hidden: false
 category: Huvudrätt
 featuredimage: /static/uploads/carbonara.jpg
-featuredimagetheme: 2
 servings: 4
 servingslabel: portioner
 ingredients:

@@ -6,7 +6,6 @@ description: Serveras med ris och naanbröd.
 hidden: false
 category: Huvudrätt
 featuredimage: /static/uploads/tikkamasala.jpg
-featuredimagetheme: 2
 servings: 4
 servingslabel: portioner
 ingredients:

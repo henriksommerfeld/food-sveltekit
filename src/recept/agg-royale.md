@@ -5,7 +5,6 @@ title: Ägg royale
 hidden: false
 category: Frukost
 featuredimage: /static/uploads/egg-royal.jpeg
-featuredimagetheme: 2
 servings: 4
 servingslabel: portioner
 ingredients:

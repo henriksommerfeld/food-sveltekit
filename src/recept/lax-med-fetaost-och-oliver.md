@@ -6,7 +6,6 @@ description: Enkel och god laxrätt.
 hidden: false
 category: Huvudrätt
 featuredimage: /static/uploads/laxmedfetaoliver.jpg
-featuredimagetheme: 2
 servings: 4
 servingslabel: portioner
 ingredients:
