@@ -77,6 +77,12 @@
     appearance: none;
     outline: none;
   }
+  input::placeholder {
+    color: var(--gray900);
+  }
+  input:focus::placeholder {
+    color: var(--gray800);
+  }
   button {
     padding: 0;
     line-height: 0;
