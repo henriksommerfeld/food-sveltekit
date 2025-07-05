@@ -67,6 +67,7 @@ collections:
           label: 'Grupper av ingredienser',
           name: 'ingredients',
           widget: 'list',
+          required: false,
           fields:
             [
               {
