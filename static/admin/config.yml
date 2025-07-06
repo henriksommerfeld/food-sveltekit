@@ -133,6 +133,7 @@ collections:
           label: 'Grupper av instruktioner',
           name: 'instructions',
           widget: 'list',
+          required: false,
           fields:
             [
               {
