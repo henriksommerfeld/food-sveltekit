@@ -9,6 +9,8 @@ WORKDIR /app
 COPY . ./
 RUN npm run build
 
-FROM ghcr.io/nginx-proxy/nginx-proxy:alpine
+FROM docker.io/joseluisq/static-web-server:2.37-debian
 LABEL org.opencontainers.image.source="https://github.com/henriksommerfeld/food-sveltia"
-COPY --from=build /app/build /usr/share/nginx/html
+WORKDIR /app
+COPY --from=build /app/build ./
+RUN static-web-server --port 8080 --root .
