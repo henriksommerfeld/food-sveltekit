@@ -1,6 +1,6 @@
 FROM public.ecr.aws/docker/library/node:22.12.0-alpine AS install
 WORKDIR /app
-COPY .nvmrc .npmrc package.json pnpm-lock.yaml ./
+COPY .npmrc package.json pnpm-lock.yaml ./
 RUN npm install --global corepack@latest --no-update-notifier --no-audit --no-fund
 RUN pnpm install
 
@@ -13,4 +13,4 @@ FROM docker.io/joseluisq/static-web-server:2.37-debian
 LABEL org.opencontainers.image.source="https://github.com/henriksommerfeld/food-sveltia"
 WORKDIR /app
 COPY --from=build /app/build ./
-RUN static-web-server --port 8080 --root .
+CMD ["static-web-server", "--port", "8080", "--root", "."]
