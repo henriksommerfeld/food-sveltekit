@@ -86,6 +86,7 @@ collections:
                       label: 'Ingredienslista, delmoment',
                       name: 'partingredientslist',
                       widget: 'list',
+                      required: false,
                       fields:
                         [
                           {
@@ -153,6 +154,7 @@ collections:
                       label: 'Instruktioner för delmoment',
                       name: 'partinstructionslist',
                       widget: 'list',
+                      required: false,
                       fields: [{ label: 'Instruktion', name: instruction, widget: 'string' }]
                     }
                   ]
