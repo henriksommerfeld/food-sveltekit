@@ -8,9 +8,4 @@ docker-compose*
 README.md
 LICENSE
 .vscode
-public
-static/*.css
-static/*.js
-static/*.js.*
-**/search-index.json
-build/timestamp.txt
+build
