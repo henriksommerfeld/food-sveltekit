@@ -10,6 +10,7 @@ backend:
   name: github
   repo: henriksommerfeld/food-sveltekit
   branch: main
+  base_url: https://auth.recept.sommerfeld.nu
 
 # The folder used to store uploaded images
 media_folder: 'static/uploads'
