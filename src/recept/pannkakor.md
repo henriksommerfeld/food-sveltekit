@@ -1,8 +1,8 @@
 ---
 title: Pannkakor
 description: Mjölkfria pannkakor
-tools: ''
-hidden: true
+tools: Pannkakslagg eller flat stekpanna
+hidden: false
 category: Huvudrätt
 featuredimage: /static/uploads/pancakes-2020863.jpg
 servings: 6
@@ -32,7 +32,15 @@ ingredients:
             unit: st
             ingredientname: margarin (till stekning)
         - {}
-instructions: []
+instructions:
+  - partinstructions:
+      partinstructionsname: Smeten
+      partinstructionslist:
+        - instruction: Blanda mjöl och salt i en bunke
+        - instruction: ispa i hälften av mjölken och vispa till en slät smet
+        - instruction: Vispa i resten av mjölken och äggen
+        - instruction: Låt smeten vila ca 10 minuter
+        - instruction: Stek pannkakorna i lite margarin för varje pannkaka
 timepassive:
   dayspassive: 0
   hourspassive: 0
