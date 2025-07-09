@@ -31,7 +31,6 @@ ingredients:
             ingredientamount: 0
             unit: st
             ingredientname: margarin (till stekning)
-        - {}
 instructions:
   - partinstructions:
       partinstructionsname: Smeten
