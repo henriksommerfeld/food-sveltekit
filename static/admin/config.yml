@@ -16,6 +16,14 @@ backend:
 # The folder used to store uploaded images
 media_folder: 'static/uploads'
 
+media_libraries:
+  stock_assets:
+    providers: []
+  default:
+    config:
+      max_file_size: 10240000 # 10 MB default: Infinity
+      slugify_filename: true # default: false
+
 # The CMS collections and their fields
 collections:
   - name: 'recept'
