@@ -11,6 +11,7 @@ RUN npm run build
 
 FROM docker.io/joseluisq/static-web-server:2.37-debian
 LABEL org.opencontainers.image.source="https://github.com/henriksommerfeld/food-sveltia"
+LABEL org.opencontainers.image.description="Family recipe collection"
 WORKDIR /app
 COPY --from=build /app/build ./
 CMD ["static-web-server", "--port", "8080", "--root", "."]
