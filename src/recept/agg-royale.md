@@ -1,8 +1,8 @@
 ---
-templateKey: recept
-url: ''
 title: Ägg royale
-hidden: false
+description: ''
+tools: ''
+hidden: true
 category: Frukost
 featuredimage: /static/uploads/egg-royal.jpeg
 servings: 4
@@ -43,6 +43,7 @@ ingredients:
             unit: st
             ingredientname: smör (att steka brödet i)
   - partingredients:
+      partingredientsname: Hollandaisesås
       partingredientslist:
         - ingredient:
             ingredientamount: 200
@@ -64,7 +65,6 @@ ingredients:
             ingredientamount: 0
             unit: st
             ingredientname: salt
-      partingredientsname: Hollandaisesås
   - partingredients:
       partingredientsname: Garnering
       partingredientslist:
@@ -80,19 +80,12 @@ instructions:
   - partinstructions:
       partinstructionsname: Allt
       partinstructionslist:
-        - instruction: Rosta bröden med smöret i en stekpanna så dom blir krispiga och
-            gyllenbruna.
-        - instruction: Koka upp vatten och ättika. Knäck äggen i en bunke. Gör en virvel i
-            vattnet och lägg i äggen försiktigt. Låt pochera ca 3-5 minuter.
-        - instruction: ' Ta upp äggen med hålslev och låt rinna av på hushållspapper. Strö
-            över lite flingsalt.'
-        - instruction: ' Smält smöret. Vispa ihop äggulor, citron och vatten.'
-        - instruction: Värm äggblandningen i vattenbad eller direkt på spisen tills den
-            tjocknar. Vispa försiktigt i det smälta smöret (förutom
-            bottensatsen). Smaka av med salt och ev mer citron om det behövs.
-        - instruction: Lägg laxskivor på de stekta bröden. Toppa med pocherat ägg och
-            hollandaisesås. Mal över lite svartpeppar och garnera med krasse
-            och/eller dill.
+        - instruction: Rosta bröden med smöret i en stekpanna så dom blir krispiga och gyllenbruna.
+        - instruction: Koka upp vatten och ättika. Knäck äggen i en bunke. Gör en virvel i vattnet och lägg i äggen försiktigt. Låt pochera ca 3-5 minuter.
+        - instruction: Ta upp äggen med hålslev och låt rinna av på hushållspapper. Strö över lite flingsalt.
+        - instruction: Smält smöret. Vispa ihop äggulor, citron och vatten.
+        - instruction: Värm äggblandningen i vattenbad eller direkt på spisen tills den tjocknar. Vispa försiktigt i det smälta smöret (förutom bottensatsen). Smaka av med salt och ev mer citron om det behövs.
+        - instruction: Lägg laxskivor på de stekta bröden. Toppa med pocherat ägg och hollandaisesås. Mal över lite svartpeppar och garnera med krasse och/eller dill.
 timepassive:
   dayspassive: 0
   hourspassive: 0
@@ -102,4 +95,7 @@ timeactive:
   minutesactive: 30
 tags:
   - frunch
+url: ''
+templateKey: recept
 ---
+
