@@ -63,8 +63,8 @@ instructions:
         - instruction: Skär rabarbern i ca 4 cm stora bitar
         - instruction: Lägg rabarberbitarna i en smord pajform
         - instruction: Sätt ugnen på 150°C
-        - instruction: Blanda alla övriga ingredienser i en bunke
         - instruction: Smält smöret i en kastrull tillsammans med grädde och sirap. Blanda ner de torra ingredienserna.
+        - instruction: Blanda alla övriga ingredienser i en bunke
         - instruction: Bred på smeten.
         - instruction: Grädda pajen mitt i ugnen 40-50 minuter, tills den fått färg.
 timepassive:
@@ -78,5 +78,4 @@ tags:
   - rabarber
   - paj
 ---
-
 Servera med vaniljglass eller -sås.
