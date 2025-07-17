@@ -1,12 +1,12 @@
 ---
 title: Pepparkakor
-description: ""
+description: ''
 tools: Kavel, bakbord, hushållsassistent underlättar
 hidden: false
 category: Bakning
 featuredimage: /static/uploads/pepparkakor.jpg
-servings: 1400
-servingslabel: gram
+servings: 14
+servingslabel: hektogram
 ingredients:
   - partingredients:
       partingredientsname: Degen
