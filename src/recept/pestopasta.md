@@ -1,7 +1,7 @@
 ---
 title: Pestopasta
-description: ""
-tools: ""
+description: ''
+tools: ''
 hidden: false
 category: Huvudrätt
 featuredimage: /static/uploads/pestopasta.jpg
@@ -57,6 +57,5 @@ timeactive:
 tags:
   - pasta
 templateKey: recept
-url: ""
+url: ''
 ---
-

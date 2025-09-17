@@ -50,4 +50,3 @@ tags:
 templateKey: recept
 url: ''
 ---
-

@@ -1,7 +1,7 @@
 ---
 title: Hallon- och saltlakritsmarshmallows
 description: Gott och uppskattat julgodis
-tools: ""
+tools: ''
 hidden: false
 category: Efterrätt
 featuredimage: /static/uploads/IMG_8612.jpg
@@ -54,4 +54,3 @@ tags:
   - turkisk peppar
   - snacks
 ---
-

@@ -1,7 +1,7 @@
 ---
 title: One pot nudelsoppa
 description: En superenkel, färgglad och näringsrik nudelsoppa på under 15 minuter!
-tools: ""
+tools: ''
 hidden: false
 category: Huvudrätt
 featuredimage: /static/uploads/Nudelsoppa.jpg

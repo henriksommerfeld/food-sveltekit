@@ -1,7 +1,7 @@
 ---
 title: Mjölkfri brunsån
 description: Passar till exempelvis köttfärslimpa
-tools: ""
+tools: ''
 hidden: false
 category: Tillbehör
 featuredimage: /static/uploads/brun_sas.jpg
@@ -37,7 +37,7 @@ ingredients:
             ingredientname: havregrädde
 instructions:
   - partinstructions:
-      partinstructionsname: ""
+      partinstructionsname: ''
       partinstructionslist:
         - instruction: Smält margarinet i en kastrull
         - instruction: Sänk värmen lite

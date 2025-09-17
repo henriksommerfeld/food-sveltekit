@@ -1,7 +1,7 @@
 ---
 title: Chili con carne
-description: ""
-tools: ""
+description: ''
+tools: ''
 hidden: false
 category: Huvudrätt
 featuredimage: /static/uploads/chili-con-carne.jpg
@@ -73,5 +73,5 @@ tags:
   - kött
   - chili
 templateKey: recept
-url: ""
+url: ''
 ---
