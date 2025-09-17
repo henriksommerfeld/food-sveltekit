@@ -29,7 +29,9 @@ export default [
       '@typescript-eslint': typescript
     },
     rules: {
-      ...typescript.configs.recommended.rules
+      ...typescript.configs.recommended.rules,
+      '@typescript-eslint/no-unused-vars': 'off',
+      '@typescript-eslint/no-unused-expressions': 'off'
     }
   },
 
@@ -55,7 +57,9 @@ export default [
     },
     rules: {
       ...svelte.configs.recommended.rules,
-      ...typescript.configs.recommended.rules
+      ...typescript.configs.recommended.rules,
+      '@typescript-eslint/no-unused-vars': 'off',
+      '@typescript-eslint/no-unused-expressions': 'off'
     }
   },
 

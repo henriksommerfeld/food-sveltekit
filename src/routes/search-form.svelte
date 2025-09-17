@@ -26,7 +26,7 @@
       bind:value={searchTerm}
     />
     <button type="submit">
-      <img src={hasFocus ? SearchWhiteSvg : SearchGreySvg} alt="" aria-hidden />
+      <img src={hasFocus ? SearchWhiteSvg : SearchGreySvg} alt="" aria-hidden="true" />
     </button>
   </form>
 </search>

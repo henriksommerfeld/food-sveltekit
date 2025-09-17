@@ -196,7 +196,11 @@ img {
 }
 a {
   color: var(--link-color);
-  transition: color, text-shadow, background 150ms ease-out, outline 60ms;
+  transition:
+    color,
+    text-shadow,
+    background 150ms ease-out,
+    outline 60ms;
   background: linear-gradient(to right, var(--teal700) 0%, var(--teal400) 50%, var(--teal700) 100%);
   background-position-x: left;
   background-position-y: 97%;

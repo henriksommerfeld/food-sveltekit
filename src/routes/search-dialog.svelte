@@ -102,7 +102,9 @@
     justify-content: center;
     align-items: center;
     box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.6);
-    transition: transform 400ms ease, box-shadow 200ms ease;
+    transition:
+      transform 400ms ease,
+      box-shadow 200ms ease;
 
     @media (min-width: 1024px) {
       top: -var(--spacing-default);

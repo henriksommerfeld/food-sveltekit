@@ -28,7 +28,7 @@ const config = {
 
   onwarn: (warning, handler) => {
     // supress a11y warnings in markdown files
-    if (warning.code.startsWith('a11y-') && warning.filename.endsWith('.md')) return
+    if (warning.code.startsWith('a11y_') && warning.filename.endsWith('.md')) return
     handler(warning)
   }
 }

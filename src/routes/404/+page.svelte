@@ -78,7 +78,9 @@
     @media (min-width: 768px) {
       padding: 2rem;
       font-size: 1.5rem;
-      text-shadow: rgba(0, 0, 0, 0.5) 0px 0px 2px, rgba(255, 255, 255, 0.7) 0px 0px 20px;
+      text-shadow:
+        rgba(0, 0, 0, 0.5) 0px 0px 2px,
+        rgba(255, 255, 255, 0.7) 0px 0px 20px;
     }
     @media (min-width: 1024px) {
       padding: 5rem;
@@ -86,7 +88,9 @@
     }
     @media (min-width: 2048px) {
       font-size: 2.5rem;
-      text-shadow: rgba(0, 0, 0, 0.5) 0px 0px 2px, rgba(255, 255, 255, 0.7) 0px 0px 30px;
+      text-shadow:
+        rgba(0, 0, 0, 0.5) 0px 0px 2px,
+        rgba(255, 255, 255, 0.7) 0px 0px 30px;
     }
   }
   header {
@@ -121,7 +125,9 @@
     line-height: 1.1;
     @media (min-width: 768px) {
       font-size: 2rem;
-      text-shadow: rgba(0, 0, 0, 0.5) 0px 0px 2px, rgba(255, 255, 255, 0.7) 0px 0px 30px;
+      text-shadow:
+        rgba(0, 0, 0, 0.5) 0px 0px 2px,
+        rgba(255, 255, 255, 0.7) 0px 0px 30px;
     }
     @media (min-width: 1024px) {
       font-size: 2.5rem;

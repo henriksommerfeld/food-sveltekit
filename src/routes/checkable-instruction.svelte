@@ -17,7 +17,7 @@
     <input type="checkbox" on:change={toggle} />
     <span
       style="--boxShadowColor: {boxshadowColor}; --focusBoxShadowColor: {focusCheckboxShadowColor} --checked: {isChecked}"
-    />
+    ></span>
   </label>
   {instruction}
 </li>

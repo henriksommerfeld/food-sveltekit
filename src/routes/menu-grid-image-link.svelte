@@ -32,7 +32,10 @@
     display: block;
     width: 100%;
     position: relative;
-    transition: filter 150ms ease 0s, box-shadow 150ms ease 0s, font-size 150ms ease 0s;
+    transition:
+      filter 150ms ease 0s,
+      box-shadow 150ms ease 0s,
+      font-size 150ms ease 0s;
     box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 5px;
     text-align: center;
     overflow: hidden;

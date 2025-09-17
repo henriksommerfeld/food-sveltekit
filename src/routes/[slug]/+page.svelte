@@ -112,7 +112,7 @@
         </div>
         {#if recipe.tags.length > 0}
           <div class="tags">
-            <span />
+            <span></span>
             {#each recipe.tags as tag, index}
               {@const slug = tags.find(t => equalsIgnoreCase(t.name, tag))?.slug}
               {#if slug}
