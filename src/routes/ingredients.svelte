@@ -35,12 +35,6 @@
       />
     </button>
   </div>
-  {#if servings !== recipe.servings}
-    <div class="servings-adjuster-info">
-      Justeringen av antal påverkar bara mängden ingredienser som visas i receptet. Tillagningstid
-      och <em>Gör så här</em> är skrivna utifrån den ursprungliga mängden.
-    </div>
-  {/if}
   {#each recipe.ingredients.ingredientsGroup as ingredientsGroup}
     <IngredientsGroup
       group={ingredientsGroup}
@@ -71,12 +65,5 @@
     display: flex;
     cursor: pointer;
     touch-action: manipulation;
-  }
-  .servings-adjuster-info {
-    padding: var(--spacing-default);
-    margin-bottom: var(--spacing-default);
-    background-color: var(--teal100);
-    border: 1px solid var(--teal500);
-    border-radius: var(--border-radius);
   }
 </style>
