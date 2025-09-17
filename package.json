@@ -42,7 +42,7 @@
     "vite": "^7.1.5",
     "vite-imagetools": "^7.0.4",
     "vitest": "^3.2.4",
-    "zod": "^3.23.8"
+    "zod": "^4.1.9"
   },
   "type": "module"
 }

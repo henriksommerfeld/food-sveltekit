@@ -1,4 +1,4 @@
-import { z } from 'zod'
+import { z } from 'zod/v4'
 
 export enum QuantityUnit {
   pieces = 'st',
@@ -78,7 +78,7 @@ export const recipeFrontmatterSchema = z.object({
             z.object({
               ingredient: z.object({
                 ingredientamount: z.number().min(0),
-                unit: z.nativeEnum(QuantityUnit),
+                unit: z.enum(QuantityUnit),
                 ingredientname: z.string().min(1)
               })
             })
@@ -156,6 +156,10 @@ const slugSchema = z.object({ slug: z.string() })
 
 const contentSchema = z.object({ content: z.any() })
 
-export const recipeSchema = recipeFrontmatterSchema.merge(slugSchema.merge(contentSchema))
+export const recipeSchema = z.object({
+  ...recipeFrontmatterSchema.shape,
+  ...slugSchema.shape,
+  ...contentSchema.shape
+})
 export type RecipeFrontmatter = z.infer<typeof recipeFrontmatterSchema>
 export type Recipe = z.infer<typeof recipeSchema>
