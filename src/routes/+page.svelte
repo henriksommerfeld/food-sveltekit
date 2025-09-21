@@ -7,7 +7,7 @@
   import PageWrapper from './page-wrapper.svelte'
   import Searchbox from './searchbox.svelte'
   import { CategoryLinks } from '$lib/constants'
-  import { getColor, getImage } from '$lib/image'
+  import { getImage } from '$lib/image'
 
   const lqipImages = import.meta.glob('/src/uploads/*1x1.jpg', {
     import: 'default',
