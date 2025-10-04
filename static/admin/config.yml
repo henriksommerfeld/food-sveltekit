@@ -23,6 +23,14 @@ media_libraries:
     config:
       max_file_size: 10240000 # 10 MB default: Infinity
       slugify_filename: true # default: false
+      transformations:
+        raster_image: # original format
+          format: webp # new format, only `webp` is supported
+          quality: 85 # default: 85
+          width: 4096 # default: original size
+          height: 3072 # default: original size
+        svg:
+          optimize: true
 
 # The CMS collections and their fields
 collections:
