@@ -10,6 +10,18 @@ if [[ -z "$version" ]] || [[ ! "$version" =~ ^[0-9]+\.[0-9]+\.[0-9]+$ ]]; then
 	exit 1
 fi
 
-echo "$version"
+echo "New NodeJS version is $version"
 
 printf 'v%s' "$version" >.nvmrc
+
+file=Dockerfile
+
+cleanup() {
+	rm -f "$file.upg"
+	exit
+}
+
+trap cleanup EXIT
+
+sed -E "$regex" "$file" >"$file.upg"
+mv "$file.upg" "$file"
