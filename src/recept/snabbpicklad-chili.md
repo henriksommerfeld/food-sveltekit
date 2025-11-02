@@ -45,6 +45,11 @@ timeactive:
   hoursactive: 0
   minutesactive: 5
 tags:
-  - picklad, chili, jalapeños, inlagd, tacos, plockmat
+  - picklad
+  - chili
+  - jalapeños
+  - inlagd
+  - tacos
+  - plockmat
 ---
 

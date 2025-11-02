@@ -43,6 +43,10 @@ timeactive:
   hoursactive: 0
   minutesactive: 15
 tags:
-  - efterrätt, kokos, bounty, godis, choklad
+  - efterrätt
+  - kokos
+  - bounty
+  - godis
+  - choklad
 ---
 

@@ -60,6 +60,9 @@ timeactive:
   hoursactive: 0
   minutesactive: 20
 tags:
-  - kladdkaka, choklad, tårta, kaka
+  - kladdkaka
+  - choklad
+  - tårta
+  - kaka
 ---
 
