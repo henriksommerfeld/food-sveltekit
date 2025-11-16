@@ -48,7 +48,7 @@ instructions:
       partinstructionsname: Gör så här
       partinstructionslist:
         - instruction: Sätt ugnen på 225 grader. Dra skinnet av korven och skär den i skivor, men inte helt igenom. Lägg korven på ett smort ugnssäkert fat.
-        - instruction: Blanda ihop chilisås, senap, lök, solroskärnor, persilja och ost.
+        - instruction: Blanda ihop chilisås, senap, rostad lök, solroskärnor, persilja och ost.
         - instruction: Fördela fyllningen mellan korvskivorna. Lägg tomaterna runtomkring.
         - instruction: Gratinera i ugnen i cirka 20 minuter.
 timepassive:
@@ -67,3 +67,4 @@ tags:
   - Ingrid
   - fylld
 ---
+
