@@ -97,6 +97,12 @@ timeactive:
   hoursactive: 0
   minutesactive: 30
 tags:
-  - israeliskt, Israel, Mellanöstern, streetfood, kött, nötfärs, filodeg
+  - israeliskt
+  - Israel
+  - Mellanöstern
+  - streetfood
+  - kött
+  - nötfärs
+  - filodeg
 ---
 

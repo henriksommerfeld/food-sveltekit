@@ -82,5 +82,10 @@ timeactive:
   hoursactive: 0
   minutesactive: 30
 tags:
-  - asiatiskt, vårrullar, rullar, jordnöt, snabblagat, mjölkfritt
+  - asiatiskt
+  - vårrullar
+  - rullar
+  - jordnöt
+  - snabblagat
+  - mjölkfritt
 ---

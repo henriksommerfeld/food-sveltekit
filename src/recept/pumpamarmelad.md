@@ -38,6 +38,9 @@ timeactive:
   hoursactive: 1
   minutesactive: 20
 tags:
-  - marmelad, pumpa, halloween, thanksgiving
+  - marmelad
+  - pumpa
+  - halloween
+  - thanksgiving
 ---
 

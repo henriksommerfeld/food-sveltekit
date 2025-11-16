@@ -208,7 +208,7 @@ collections:
             ]
         }
       - {
-          label: 'Taggar',
+          label: 'Taggar (en per rad)',
           label_singular: 'Tagg',
           name: 'tags',
           widget: 'list',
