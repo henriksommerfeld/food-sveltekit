@@ -9,7 +9,7 @@ WORKDIR /app
 COPY . ./
 RUN npm run build
 
-FROM docker.io/joseluisq/static-web-server:2.39.0-debian
+FROM docker.io/joseluisq/static-web-server:2.40.0-alpine
 LABEL org.opencontainers.image.source="https://github.com/henriksommerfeld/food-sveltia"
 LABEL org.opencontainers.image.description="Family recipe collection"
 WORKDIR /app
