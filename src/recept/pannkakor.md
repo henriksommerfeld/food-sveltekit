@@ -1,7 +1,7 @@
 ---
 title: Pannkakor
 description: Mjölkfria pannkakor
-tools: Pannkakslagg eller flat stekpanna
+tools: Pannkakslagg eller stekpanna med låg kant
 hidden: false
 category: Huvudrätt
 featuredimage: /static/uploads/pancakes-2020863.jpg
@@ -49,3 +49,4 @@ timeactive:
   minutesactive: 30
 tags: []
 ---
+
