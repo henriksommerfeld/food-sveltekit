@@ -15,7 +15,9 @@
     "format": "prettier --write .",
     "deps": "pnpm ls --depth Infinity --parseable | wc -l",
     "docker:build": "docker build -t food-sveltekit .",
-    "docker:run": "docker run food-sveltekit"
+    "docker:run": "docker run food-sveltekit",
+    "docker:clean:build": "docker build -t clean-images -f scripts/clean-images.dockerfile .",
+    "docker:clean:run": "docker run -it -v ${PWD}/static/:/app/content clean-images"
   },
   "devDependencies": {
     "@eslint/js": "^9.35.0",
