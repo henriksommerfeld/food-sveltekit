@@ -54,7 +54,7 @@ instructions:
         - instruction: Blanda alla ingredienser förutom vetemjölet i en kastrull
         - instruction: Koka upp på medelvärme och låt svalna
         - instruction: Tillsätt vetemjölet. Här underlättar en hushållsassistent.
-        - instruction: Vänta till nästa dag.
+        - instruction: Ställ degen i kylskåpet och vänta till nästa dag.
   - partinstructions:
       partinstructionsname: Bakning
       partinstructionslist:
@@ -71,3 +71,4 @@ timeactive:
   minutesactive: 30
 tags: []
 ---
+
