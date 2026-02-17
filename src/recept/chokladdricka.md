@@ -1,6 +1,6 @@
 ---
 title: Chokladdricka
-description: Mjölkcholkad, med eller utan mjölk
+description: Mjölkchoklad, med eller utan mjölk
 tools: ''
 hidden: false
 category: Tillbehör
@@ -41,7 +41,8 @@ timepassive:
 timeactive:
   hoursactive: 0
   minutesactive: 10
-tags: []
+tags:
+  - mjölkchoklad
 ---
 
 Har aldrig måttat ingredienserna, men det går att smaka av under tiden för att få en smak man gillar. Brukar själv göra en liter ganska starkt för att sen kunna hälla upp i thermos och späda ut innan servering till barnen som inte vill ha för hett.
