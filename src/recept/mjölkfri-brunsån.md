@@ -1,6 +1,7 @@
 ---
-title: Mjölkfri brunsån
+title: Mjölkfri brunsås
 description: Passar till exempelvis köttfärslimpa
+url: '/mjölkfri-brunsås'
 tools: ''
 hidden: false
 category: Tillbehör
