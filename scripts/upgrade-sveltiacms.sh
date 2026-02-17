@@ -13,23 +13,12 @@ else
 	exit 1
 fi
 
-regex="s|https://unpkg.com/@sveltia/cms@v[0-9]*\.[0-9]*\.[0-9]*/dist/sveltia-cms.js|https://unpkg.com/@sveltia/cms@v$version/dist/sveltia-cms.js|g"
-
-files=(
-	./static/admin/index.html
-)
-
-cleanup() {
-	for x in "${files[@]}"; do
-		rm -f "$x.upg"
-	done
-	exit
-}
-
-trap cleanup EXIT
-
-for x in "${files[@]}"; do
-	sed -E "$regex" "$x" >"$x.upg"
-	mv "$x.upg" "$x"
-done
+current_dir="$PWD"
+tmp_dir=$(mktemp -d)
+wget --max-redirect=1 -O "${tmp_dir}/sveltiacms.tar.gz" "https://github.com/sveltia/sveltia-cms/archive/refs/tags/v${version}.tar.gz"
+tar zxvf "${tmp_dir}/sveltiacms.tar.gz" -C "${tmp_dir}/"
+cd "${tmp_dir}/sveltia-cms-$version"
+pnpm install
+pnpm build
+cp -r "${tmp_dir}/sveltia-cms-$version/package/dist/sveltia-cms.js" "$current_dir/static/admin/dist"
 
