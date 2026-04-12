@@ -42,7 +42,7 @@ instructions:
         - instruction: Koka pastan i saltat vatten någon minut kortare än enligt förpackningen
         - instruction: Ta av ca 1,5 dl av pastavattnet när det kokat klart och spara det
         - instruction: Hetta upp olivolja i en stek-/wokpanna
-        - instruction: Lägg i tomaterna och fräs i någon minut
+        - instruction: Lägg i tomaterna och fräs tills tomaterna "punkteras"av värmen
         - instruction: Häll i det sparde pastavattnet och låt puttra i ca 1 minut
         - instruction: Lägg i pastan, peston och blanda runt
         - instruction: Tillsätt salt & peppar
@@ -53,7 +53,7 @@ timepassive:
   minutespassive: 10
 timeactive:
   hoursactive: 0
-  minutesactive: 10
+  minutesactive: 20
 tags:
   - pasta
 templateKey: recept
