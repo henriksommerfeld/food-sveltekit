@@ -14,6 +14,8 @@ echo "New NodeJS version is $version"
 
 printf 'v%s' "$version" >.nvmrc
 
+regex="s/node:[0-9]+\.[0-9]+\.[0-9]+/node:$version/g"
+
 file=Dockerfile
 
 cleanup() {

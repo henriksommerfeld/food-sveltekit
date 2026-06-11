@@ -1,4 +1,4 @@
-FROM public.ecr.aws/docker/library/node:22.12.0-alpine AS install
+FROM public.ecr.aws/docker/library/node:24.16.0-alpine AS install
 WORKDIR /app
 COPY .npmrc package.json pnpm-lock.yaml ./
 RUN npm install --global corepack@latest --no-update-notifier --no-audit --no-fund
