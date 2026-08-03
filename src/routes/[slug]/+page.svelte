@@ -36,7 +36,7 @@
   <meta property="og:title" content={title} />
 </svelte:head>
 
-<PageWrapper editLink={`/admin/#/collections/recept/entries/${recipe.slug}`}>
+<PageWrapper editLink={`/admin/index.html#/collections/recept/entries/${recipe.slug}`}>
   <KeepAwake />
   <div class="page">
     <ImageBanner {imagePath}>
