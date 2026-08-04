@@ -13,6 +13,10 @@ backend:
   automatic_deployments: true
   base_url: https://auth.recept.sommerfeld.nu
 
+slug:
+  encoding: "ascii"
+  clean_accents: true
+
 # The folder used to store uploaded images
 media_folder: 'static/uploads'
 
