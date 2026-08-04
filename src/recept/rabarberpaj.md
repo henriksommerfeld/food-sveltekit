@@ -60,7 +60,7 @@ instructions:
       partinstructionsname: ''
       partinstructionslist:
         - instruction: Ansa och skölj rabarbern
-        - instruction: Skär rabarbern i ca 4 cm stora bitar
+        - instruction: Skär rabarbern i ca 2 cm tjocka bitar
         - instruction: Lägg rabarberbitarna i en smord pajform
         - instruction: Sätt ugnen på 150°C
         - instruction: Smält smöret i en kastrull tillsammans med grädde och sirap
