@@ -4,7 +4,7 @@ description: ''
 tools: Rengjorda och steriliserade glasburkar
 hidden: false
 category: Tillbehör
-featuredimage: /static/uploads/img_1330.jpeg
+featuredimage: /static/uploads/heso3380.webp
 servings: 6
 servingslabel: burkar
 ingredients:
