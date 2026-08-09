@@ -49,5 +49,7 @@ timeactive:
   hoursactive: 0
   minutesactive: 15
 tags:
-  - sylt, hallon, krusbär
+  - sylt
+  - hallon
+  - krusbär
 ---
