@@ -79,8 +79,6 @@ timeactive:
   hoursactive: 0
   minutesactive: 30
 tags:
-  - Morot
-  - Morötter
   - Soppa
   - Grönsaker
   - Rotfrukter

@@ -91,10 +91,6 @@ timeactive:
 tags:
   - soppa
   - pumpa
-  - Halloween
-  - Halloweenpumpa
-  - rostad
-  - grönsakssoppa
   - rotfrukter
   - vegetariskt
 ---

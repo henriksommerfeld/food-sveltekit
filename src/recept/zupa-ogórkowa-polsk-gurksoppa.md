@@ -85,10 +85,8 @@ timeactive:
   hoursactive: 0
   minutesactive: 30
 tags:
-  - Polsk
   - Gurka
   - Saltgurka
   - Soppa
   - Polen
-  - Zupa
 ---
