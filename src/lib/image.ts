@@ -1,5 +1,4 @@
 import { z } from 'zod/v4'
-import { Theme } from './constants'
 
 export const pictureSchema = z.object({
   sources: z.object({
