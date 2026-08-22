@@ -1,6 +1,6 @@
 ---
 title: Pumpapaj
-description: ""
+description: ''
 tools: Pajform
 hidden: false
 category: Efterrätt
@@ -64,7 +64,7 @@ ingredients:
             ingredientname: vispgrädde
 instructions:
   - partinstructions:
-      partinstructionsname: "Degen"
+      partinstructionsname: Degen
       partinstructionslist:
         - instruction: Blanda ihop mjöl, socker och smör till en grynig massa.
         - instruction: Tillsätt äggulan och arbeta ihop till en deg.
@@ -72,7 +72,7 @@ instructions:
         - instruction: Låt degen vila i kyl ca 30 min.
         - instruction: Sätt ugnen på 200° eller 180° varmluft.
   - partinstructions:
-      partinstructionsname: "Fyllningen"
+      partinstructionsname: Fyllningen
       partinstructionslist:
         - instruction: Skala pumpan med vass kniv.
         - instruction: Gröp ur kärnorna med sked.
@@ -91,5 +91,7 @@ timepassive:
 timeactive:
   hoursactive: 1
   minutesactive: 0
-tags: []
+tags:
+  - paj
+  - pumpa
 ---
