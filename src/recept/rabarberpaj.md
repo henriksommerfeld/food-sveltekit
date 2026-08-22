@@ -3,7 +3,7 @@ title: Rabarberpaj
 description: ''
 tools: ''
 hidden: false
-category: Bakning
+category: Efterrätt
 featuredimage: /static/uploads/rabarberpaj.jpg
 servings: 6
 servingslabel: portioner
