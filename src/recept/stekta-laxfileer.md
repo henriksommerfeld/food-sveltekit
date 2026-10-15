@@ -36,7 +36,7 @@ instructions:
         - instruction: Låt laxen gotta sig i marinaden så länge du orkar vänta
         - instruction: Sätt ugnen på 100°C
         - instruction: Stek laxbitarna på hög värme. 3 min på ena sidan, sedan 1 min på andra sidan
-        - instruction: Sätt in laxen i ugnen i 10 min
+        - instruction: Sätt in laxen i ugnen i 10 min. Här kan man hälla i marinaden i ugnsformen så har man en sky.
 timepassive:
   dayspassive: 0
   hourspassive: 0
