@@ -1,5 +1,6 @@
 <script lang="ts">
   import type { Ingredient } from '$lib/types'
+  import RichText from '$lib/rich-text.svelte'
   import { formattedQuantity, getQuantity } from '../ingredients-calculations'
 
   export let ingredient: Ingredient
@@ -11,7 +12,7 @@
 </script>
 
 {#if formattedIngredient}
-  <li>{formattedIngredient}</li>
+  <li><RichText text={formattedIngredient} /></li>
 {/if}
 
 <style>

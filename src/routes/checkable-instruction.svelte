@@ -1,6 +1,7 @@
 <script lang="ts">
   import { tailwindColors } from '$lib/colors'
   import { transparentizeHex } from '$lib/color-conversions'
+  import RichText from '$lib/rich-text.svelte'
 
   export let instruction: string
   const toggle = () => (isChecked = !isChecked)
@@ -19,7 +20,7 @@
       style="--boxShadowColor: {boxshadowColor}; --focusBoxShadowColor: {focusCheckboxShadowColor} --checked: {isChecked}"
     ></span>
   </label>
-  {instruction}
+  <div><RichText text={instruction} /></div>
 </li>
 
 <style>

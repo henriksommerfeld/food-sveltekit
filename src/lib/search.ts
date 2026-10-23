@@ -1,4 +1,5 @@
 import { getRecipes } from '$lib/database'
+import { stripLinks } from './inline-links'
 import MiniSearch, { type SearchResult } from 'minisearch'
 
 export type RecipeSearchResult = {
@@ -33,7 +34,9 @@ const ensureIndex = async () => {
     id: index,
     title: file.title,
     slug: file.slug,
-    ingredients: file.ingredients.ingredientsGroup.flatMap(x => x.ingredients.map(y => y.name)),
+    ingredients: file.ingredients.ingredientsGroup.flatMap(x =>
+      x.ingredients.map(y => stripLinks(y.name))
+    ),
     tags: file.tags,
     featuredimage: file.featuredimage
   }))
