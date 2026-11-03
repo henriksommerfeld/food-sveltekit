@@ -56,6 +56,9 @@ importers:
       prettier-plugin-svelte:
         specifier: 3.4.1
         version: 3.4.1(prettier@3.7.4)(svelte@5.46.0)
+      sharp:
+        specifier: 0.35.5
+        version: 0.35.5
       svelte:
         specifier: 5.46.0
         version: 5.46.0

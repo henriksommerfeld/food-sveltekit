@@ -4,6 +4,7 @@
   "private": false,
   "scripts": {
     "copy-images": "cp -rf ./static/uploads ./src/",
+    "shrink-images": "node scripts/shrink-images.js",
     "dev": "npm run copy-images && vite dev",
     "build": "npm run copy-images && svelte-kit sync && vite build",
     "preview": "vite preview",
@@ -36,6 +37,7 @@
     "minisearch": "7.2.0",
     "prettier": "3.7.4",
     "prettier-plugin-svelte": "3.4.1",
+    "sharp": "0.35.5",
     "svelte": "5.46.0",
     "svelte-check": "4.3.5",
     "svelte-eslint-parser": "1.4.1",
