@@ -17,7 +17,7 @@
   const images = import.meta.glob('/src/uploads/*1x1.jpg', {
     import: 'default',
     eager: true,
-    query: '?w=640;800&aspect=1:1&fit-cover&format=webp&as=picture'
+    query: '?w=640;800&aspect=1:1&fit=cover&format=webp&as=picture'
   })
 </script>
 

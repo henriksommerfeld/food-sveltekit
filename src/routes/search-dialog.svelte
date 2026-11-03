@@ -23,7 +23,7 @@
   const images = import.meta.glob('/src/uploads/*', {
     import: 'default',
     eager: true,
-    query: '?w=640;800&h=480;600&fit-cover&format=webp&as=picture'
+    query: '?w=640;800&h=480;600&fit=cover&format=webp&as=picture'
   })
 </script>
 
