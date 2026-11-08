@@ -65,7 +65,6 @@ instructions:
         - instruction: Koka upp vatten och ättika. Knäck äggen i en bunke. Gör en virvel i vattnet och lägg i äggen försiktigt. Låt pochera ca 3-5 minuter.
         - instruction: Ta upp äggen med hålslev och låt rinna av på hushållspapper. Strö över lite flingsalt.
         - instruction: Gör [hollandaisesåsen](/hollandaisesas)
-        - instruction: Värm äggblandningen i vattenbad eller direkt på spisen tills den tjocknar. Vispa försiktigt i det smälta smöret (förutom bottensatsen). Smaka av med salt och ev mer citron om det behövs.
         - instruction: Lägg laxskivor på de stekta bröden. Toppa med pocherat ägg och hollandaisesås. Mal över lite svartpeppar och garnera med krasse och/eller dill.
 timepassive:
   dayspassive: 0
