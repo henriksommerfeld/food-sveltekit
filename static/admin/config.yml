@@ -19,6 +19,7 @@ slug:
 
 # The folder used to store uploaded images
 media_folder: 'static/uploads'
+public_folder: '/uploads'
 
 media_libraries:
   stock_assets:
