@@ -57,4 +57,6 @@ tags:
 url: /hollandaisesas
 ---
 
-Se till att smöret är ordentligt hett innan du häller på. Eftersom det behövs värme kan det behövas en del smör i början innan det börjar tjockna.![Mixer med bunke och smör](/uploads/hollandaise-mixer.webp)
+![Mixer med bunke och smör](/uploads/hollandaise-mixer.webp)
+
+Se till att smöret är ordentligt hett innan du häller på. Eftersom det behövs värme kan det behövas en del smör i början innan det börjar tjockna.
