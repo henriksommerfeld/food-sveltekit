@@ -9,25 +9,13 @@
   import type { PageData } from './$types'
   import { equalsIgnoreCase } from '#lib/compare.ts'
   import { formatDuration } from '#lib/time.ts'
-  import { getImage } from '#lib/image.ts'
   import { servingsUnitFormatted } from '#lib/servings.ts'
 
   export let data: PageData
-  export const { recipe, tags } = data
+  export const { recipe, tags, image } = data
 
   const title = `${recipe.title} | ${recipe.category}`
   const imagePath = `/src${recipe.featuredimage}`
-  const lqipImages = import.meta.glob('/src/uploads/*', {
-    import: 'default',
-    eager: true,
-    query: '?w=200&format=webp&inline&as=url&quality=10'
-  })
-  const images = import.meta.glob('/src/uploads/*', {
-    import: 'default',
-    eager: true,
-    query: '?w=800;1500&format=webp&as=picture'
-  })
-  const image = getImage(images, lqipImages, imagePath)
 </script>
 
 <svelte:head>
