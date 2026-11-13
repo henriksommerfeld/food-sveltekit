@@ -22,7 +22,7 @@
   },
   "devDependencies": {
     "@eslint/js": "9.39.2",
-    "@sindresorhus/slugify": "3.0.0",
+    "@sindresorhus/slugify": "4.0.1",
     "@sveltejs/adapter-auto": "6.1.0",
     "@sveltejs/adapter-static": "3.0.10",
     "@sveltejs/kit": "2.49.2",
@@ -32,7 +32,7 @@
     "eslint": "9.39.2",
     "eslint-config-prettier": "10.1.8",
     "eslint-plugin-svelte": "3.24.1",
-    "globals": "16.5.0",
+    "globals": "17.14.0",
     "mdsvex": "0.12.8",
     "minisearch": "7.2.0",
     "prettier": "3.10.1",
