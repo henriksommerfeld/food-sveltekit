@@ -1,5 +1,5 @@
-import { getRecipes } from '$lib/database'
-import { CategoryLinks } from '$lib/constants'
+import { getRecipes } from '#lib/database.ts'
+import { CategoryLinks } from '#lib/constants.ts'
 import { error } from '@sveltejs/kit'
 
 export async function load({ params }) {

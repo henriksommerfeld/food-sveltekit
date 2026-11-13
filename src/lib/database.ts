@@ -1,4 +1,9 @@
-import { markdownFileSchema, type Recipe, type RecipeFrontmatter, recipeSchema } from '$lib/types'
+import {
+  markdownFileSchema,
+  type Recipe,
+  type RecipeFrontmatter,
+  recipeSchema
+} from '#lib/types.ts'
 import slugify from '@sindresorhus/slugify'
 
 const cachedRecipes = new Array<Recipe>()

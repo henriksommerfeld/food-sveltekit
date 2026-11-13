@@ -1,5 +1,5 @@
-import { equalsIgnoreCase } from '$lib/compare.js'
-import { getRecipes, getTags } from '$lib/database'
+import { equalsIgnoreCase } from '#lib/compare.ts'
+import { getRecipes, getTags } from '#lib/database.ts'
 import { error } from '@sveltejs/kit'
 
 export async function load({ params }) {

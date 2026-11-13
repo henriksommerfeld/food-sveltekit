@@ -2,7 +2,7 @@
   import BannerHeader from './banner-header.svelte'
   import ImageBanner from './image-banner.svelte'
   import Searchbox from './searchbox.svelte'
-  import type { NavLink } from '$lib/constants'
+  import type { NavLink } from '#lib/constants.ts'
 
   export let category: NavLink
   export let recipeCount: number

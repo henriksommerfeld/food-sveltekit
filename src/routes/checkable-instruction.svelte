@@ -1,7 +1,7 @@
 <script lang="ts">
-  import { tailwindColors } from '$lib/colors'
-  import { transparentizeHex } from '$lib/color-conversions'
-  import RichText from '$lib/rich-text.svelte'
+  import { tailwindColors } from '#lib/colors.ts'
+  import { transparentizeHex } from '#lib/color-conversions.ts'
+  import RichText from '#lib/rich-text.svelte'
 
   export let instruction: string
   const toggle = () => (isChecked = !isChecked)

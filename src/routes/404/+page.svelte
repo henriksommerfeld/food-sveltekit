@@ -1,9 +1,9 @@
 <script>
-  import * as config from '$lib/config'
+  import * as config from '#lib/config.ts'
   import HomeLink from '../home-link.svelte'
   import Searchbox from '../searchbox.svelte'
   import { onMount } from 'svelte'
-  import { urlSchema } from '$lib/image'
+  import { urlSchema } from '#lib/image.ts'
 
   const title = `Gått vilse? (404) | ${config.title}`
   const lqipImages = import.meta.glob('/src/assets/*', {

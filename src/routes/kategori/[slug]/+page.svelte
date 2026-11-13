@@ -5,7 +5,7 @@
   import MenuGridImageLink from '../../menu-grid-image-link.svelte'
   import PageWrapper from '../../page-wrapper.svelte'
   import type { PageData } from './$types'
-  import { getImage } from '$lib/image'
+  import { getImage } from '#lib/image.ts'
 
   export let data: PageData
   const recipes = data.recipes

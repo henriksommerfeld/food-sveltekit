@@ -5,8 +5,8 @@
   import ImageBanner from './image-banner.svelte'
   import MenuGridImageLink from './menu-grid-image-link.svelte'
   import SearchForm from './search-form.svelte'
-  import type { RecipeSearchResult } from '$lib/search'
-  import { getImage } from '$lib/image'
+  import type { RecipeSearchResult } from '#lib/search.ts'
+  import { getImage } from '#lib/image.ts'
 
   export let results = new Array<RecipeSearchResult>()
   export let searchTerm = ''

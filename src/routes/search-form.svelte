@@ -1,8 +1,8 @@
 <script lang="ts">
   import SearchGreySvg from '/src/assets/search-grey100.svg'
   import SearchWhiteSvg from '/src/assets/search-white.svg'
-  import { colors, tailwindColors } from '$lib/colors'
-  import { transparentizeHex } from '$lib/color-conversions'
+  import { colors, tailwindColors } from '#lib/colors.ts'
+  import { transparentizeHex } from '#lib/color-conversions.ts'
 
   export let onSubmit: () => Promise<void> | void
   export let searchTerm = ''

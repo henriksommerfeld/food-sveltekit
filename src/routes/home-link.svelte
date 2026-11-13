@@ -1,7 +1,7 @@
 <script lang="ts">
   import HomeIcon from '/src/assets/home-icon.svg'
-  import { page } from '$app/stores'
-  $: isStartPage = $page.url.pathname === '/'
+  import { page } from '$app/state'
+  const isStartPage = $derived(page.url.pathname === '/')
 </script>
 
 <a href="/" class:active={isStartPage} title="Till startsidan">

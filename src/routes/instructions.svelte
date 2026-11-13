@@ -1,5 +1,5 @@
 <script lang="ts">
-  import type { Recipe } from '$lib/types'
+  import type { Recipe } from '#lib/types.ts'
   import CheckableInstruction from './checkable-instruction.svelte'
 
   export let instructions: Recipe['instructions']

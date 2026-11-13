@@ -1,6 +1,6 @@
 <script lang="ts">
   import Image from './image.svelte'
-  import type { ImageType } from '$lib/image'
+  import type { ImageType } from '#lib/image.ts'
 
   export let href: string
   export let title: string

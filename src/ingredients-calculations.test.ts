@@ -1,6 +1,6 @@
 import { describe, it, expect } from 'vitest'
 import { formattedQuantity, getQuantity, toFraction } from './ingredients-calculations'
-import { QuantityUnit } from '$lib/types'
+import { QuantityUnit } from '#lib/types.ts'
 
 describe('formattedQuantity', () => {
   it('pieces decimal should be fraction formatted', () => {

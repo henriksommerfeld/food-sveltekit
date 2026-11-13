@@ -1,4 +1,4 @@
-import { type Ingredient, type Quantity, QuantityUnit } from '$lib/types'
+import { type Ingredient, type Quantity, QuantityUnit } from '#lib/types.ts'
 
 export function getQuantity(
   ingredient: Ingredient,

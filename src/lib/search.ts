@@ -1,4 +1,4 @@
-import { getRecipes } from '$lib/database'
+import { getRecipes } from '#lib/database.ts'
 import { stripLinks } from './inline-links'
 import MiniSearch, { type SearchResult } from 'minisearch'
 

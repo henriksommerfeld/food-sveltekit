@@ -11,19 +11,19 @@ export function transparentizeHex(hex: string, opacity: number): string {
 export function lighten(color: string, amount: number) {
   color = color.indexOf('#') >= 0 ? color.substring(1, color.length) : color
   amount = parseInt(((255 * amount) / 100).toString())
-  return (color = `#${addLight(color.substring(0, 2), amount)}${addLight(
+  return `#${addLight(color.substring(0, 2), amount)}${addLight(
     color.substring(2, 4),
     amount
-  )}${addLight(color.substring(4, 6), amount)}`)
+  )}${addLight(color.substring(4, 6), amount)}`
 }
 
 export function darken(color: string, amount: number) {
   color = color.indexOf('#') >= 0 ? color.substring(1, color.length) : color
   amount = parseInt(((255 * amount) / 100).toString())
-  return (color = `#${subtractLight(color.substring(0, 2), amount)}${subtractLight(
+  return `#${subtractLight(color.substring(0, 2), amount)}${subtractLight(
     color.substring(2, 4),
     amount
-  )}${subtractLight(color.substring(4, 6), amount)}`)
+  )}${subtractLight(color.substring(4, 6), amount)}`
 }
 
 function addLight(color: string, amount: number) {

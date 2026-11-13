@@ -1,5 +1,5 @@
 <script lang="ts">
-  import type { IngredientsGroup } from '$lib/types'
+  import type { IngredientsGroup } from '#lib/types.ts'
   import Ingredient from './ingredient.svelte'
 
   export let group: IngredientsGroup

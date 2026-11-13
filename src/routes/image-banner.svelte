@@ -1,7 +1,7 @@
 <script lang="ts">
   import Banner from './banner.svelte'
   import { onMount } from 'svelte'
-  import { urlSchema } from '$lib/image'
+  import { urlSchema } from '#lib/image.ts'
 
   export let imagePath: string
   export let renderHomeLink = true

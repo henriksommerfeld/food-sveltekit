@@ -1,6 +1,6 @@
 <script lang="ts">
-  import type { Ingredient } from '$lib/types'
-  import RichText from '$lib/rich-text.svelte'
+  import type { Ingredient } from '#lib/types.ts'
+  import RichText from '#lib/rich-text.svelte'
   import { formattedQuantity, getQuantity } from '../ingredients-calculations'
 
   export let ingredient: Ingredient

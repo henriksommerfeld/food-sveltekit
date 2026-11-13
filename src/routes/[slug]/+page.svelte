@@ -7,10 +7,10 @@
   import PageWrapper from '../page-wrapper.svelte'
   import Searchbox from '../searchbox.svelte'
   import type { PageData } from './$types'
-  import { equalsIgnoreCase } from '$lib/compare'
-  import { formatDuration } from '$lib/time'
-  import { getImage } from '$lib/image'
-  import { servingsUnitFormatted } from '$lib/servings'
+  import { equalsIgnoreCase } from '#lib/compare.ts'
+  import { formatDuration } from '#lib/time.ts'
+  import { getImage } from '#lib/image.ts'
+  import { servingsUnitFormatted } from '#lib/servings.ts'
 
   export let data: PageData
   export const { recipe, tags } = data

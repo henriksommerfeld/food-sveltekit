@@ -1,5 +1,5 @@
 <script>
-  import * as config from '$lib/config'
+  import * as config from '#lib/config.ts'
   import { page } from '$app/state'
 </script>
 
