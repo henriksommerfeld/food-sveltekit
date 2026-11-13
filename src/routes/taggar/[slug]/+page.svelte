@@ -9,6 +9,7 @@
   import TagPageSection from '../../tag-page-section.svelte'
   import TagSvg from '/src/assets/tag-grey500.svg'
   import type { PageData } from './$types'
+  import { startpageBanner } from '#lib/banner.ts'
 
   export let data: PageData
   const { tag, recipes } = data
@@ -21,7 +22,7 @@
 <PageWrapper>
   <TagBackground>
     <BannerMainContainer>
-      <ImageBanner imagePath="/src/uploads/startpage-banner.jpg">
+      <ImageBanner banner={startpageBanner}>
         <BannerHeader>
           <h1>#{tag.name}</h1>
           <h2>{tag.count} recept</h2>

@@ -1,6 +1,14 @@
-import { getRecipes } from '#lib/database.ts'
-import { stripLinks } from './inline-links'
+import type { ImageType } from '#lib/image.ts'
 import MiniSearch, { type SearchResult } from 'minisearch'
+
+export type SearchDocument = {
+  id: number
+  title: string
+  slug: string
+  ingredients: string[]
+  tags: string[]
+  image: ImageType
+}
 
 export type RecipeSearchResult = {
   id: SearchResult['id']
@@ -11,17 +19,17 @@ export type RecipeSearchResult = {
   // storeFields
   title: string
   slug: string
-  featuredimage: string
+  image: ImageType
 }
 
-let miniSearch: MiniSearch
+let miniSearch: MiniSearch | undefined
 const stopWords = new Set(['med', 'och', 'eller', 'i'])
 
 const ensureIndex = async () => {
-  if (miniSearch) return
-  miniSearch = new MiniSearch({
+  if (miniSearch) return miniSearch
+  const index = new MiniSearch({
     fields: ['title', 'tags', 'ingredients'],
-    storeFields: ['title', 'slug', 'featuredimage'],
+    storeFields: ['title', 'slug', 'image'],
     searchOptions: {
       boost: { title: 2 },
       fuzzy: 0.1,
@@ -29,21 +37,15 @@ const ensureIndex = async () => {
     },
     processTerm: (term, _fieldName) => (stopWords.has(term) ? null : term.toLowerCase())
   })
-  const allRecipes = await getRecipes()
-  const searchableProps = allRecipes.map((file, index) => ({
-    id: index,
-    title: file.title,
-    slug: file.slug,
-    ingredients: file.ingredients.ingredientsGroup.flatMap(x =>
-      x.ingredients.map(y => stripLinks(y.name))
-    ),
-    tags: file.tags,
-    featuredimage: file.featuredimage
-  }))
-  miniSearch.addAll(searchableProps)
+  const response = await fetch('/search.json')
+  if (!response.ok) throw new Error(`Failed to load search index: ${response.status}`)
+  const documents: SearchDocument[] = await response.json()
+  index.addAll(documents)
+  miniSearch = index
+  return index
 }
 
 export const searchAgainstIndex = async (query: string) => {
-  await ensureIndex()
-  return miniSearch.search(query) as RecipeSearchResult[]
+  const index = await ensureIndex()
+  return index.search(query) as RecipeSearchResult[]
 }

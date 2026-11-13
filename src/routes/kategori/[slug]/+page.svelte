@@ -5,20 +5,9 @@
   import MenuGridImageLink from '../../menu-grid-image-link.svelte'
   import PageWrapper from '../../page-wrapper.svelte'
   import type { PageData } from './$types'
-  import { getImage } from '#lib/image.ts'
 
   export let data: PageData
   const recipes = data.recipes
-  const lqipImages = import.meta.glob('/src/uploads/*', {
-    import: 'default',
-    eager: true,
-    query: '?w=128&h=96&format=webp&inline&as=url&quality=10'
-  })
-  const images = import.meta.glob('/src/uploads/*', {
-    import: 'default',
-    eager: true,
-    query: '?w=640;800&h=480;600&fit=cover&format=webp&as=picture'
-  })
 </script>
 
 <svelte:head>
@@ -29,11 +18,10 @@
 
 <PageWrapper>
   <BannerMainContainer>
-    <CategoryBanner category={data.category} recipeCount={recipes.length} />
+    <CategoryBanner category={data.category} banner={data.banner} recipeCount={recipes.length} />
     <MenuGrid>
       {#each recipes as recept}
-        {@const image = getImage(images, lqipImages, `/src${recept.featuredimage}`)}
-        <MenuGridImageLink href="/{recept.slug}" title={recept.title} {image} />
+        <MenuGridImageLink href="/{recept.slug}" title={recept.title} image={recept.image} />
       {/each}
     </MenuGrid>
   </BannerMainContainer>

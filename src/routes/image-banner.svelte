@@ -1,25 +1,13 @@
 <script lang="ts">
   import Banner from './banner.svelte'
   import { onMount } from 'svelte'
-  import { urlSchema } from '#lib/image.ts'
+  import type { BannerImage } from '#lib/banner.ts'
 
-  export let imagePath: string
+  export let banner: BannerImage
   export let renderHomeLink = true
 
-  const lqipImages = import.meta.glob('/src/uploads/*', {
-    import: 'default',
-    eager: true,
-    query: '?w=16&format=webp&inline&fit=cover&blur=2&as=url&quality=1'
-  })
-
-  const images = import.meta.glob('/src/uploads/*', {
-    import: 'default',
-    eager: true,
-    query: '?w=2500&format=webp&fit=cover&as=url'
-  })
-
-  const lqipUrl = urlSchema.parse(lqipImages[imagePath])
-  const webpUrl = urlSchema.parse(images[imagePath])
+  const lqipUrl = banner.lqip
+  const webpUrl = banner.src
   $: image = lqipUrl
 
   onMount(() => {
