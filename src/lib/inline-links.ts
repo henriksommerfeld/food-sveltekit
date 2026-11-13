@@ -1,6 +1,5 @@
 export type InlinePart =
-  | { type: 'text'; value: string }
-  | { type: 'link'; text: string; href: string }
+  { type: 'text'; value: string } | { type: 'link'; text: string; href: string }
 
 const linkPattern = /\[([^\]]+)\]\(([^)\s]+)\)/g
 

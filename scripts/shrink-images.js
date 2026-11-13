@@ -6,10 +6,10 @@ const dir = process.argv[2] ?? 'static/uploads'
 const maxWidth = 2500
 
 const encoders = {
-  '.jpg': (img) => img.jpeg({ quality: 85, mozjpeg: true }),
-  '.jpeg': (img) => img.jpeg({ quality: 85, mozjpeg: true }),
-  '.webp': (img) => img.webp({ quality: 85 }),
-  '.png': (img) => img.png({ compressionLevel: 9 })
+  '.jpg': img => img.jpeg({ quality: 85, mozjpeg: true }),
+  '.jpeg': img => img.jpeg({ quality: 85, mozjpeg: true }),
+  '.webp': img => img.webp({ quality: 85 }),
+  '.png': img => img.png({ compressionLevel: 9 })
 }
 
 let before = 0
@@ -36,7 +36,9 @@ for (const name of await readdir(dir)) {
   if (output.length < input.length) {
     await writeFile(path, output)
     after += output.length
-    console.log(`${name}: ${(input.length / 1e6).toFixed(1)} MB -> ${(output.length / 1e6).toFixed(1)} MB`)
+    console.log(
+      `${name}: ${(input.length / 1e6).toFixed(1)} MB -> ${(output.length / 1e6).toFixed(1)} MB`
+    )
   } else {
     after += input.length
   }
