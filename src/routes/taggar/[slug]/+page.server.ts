@@ -7,6 +7,8 @@ export async function load({ params }) {
   const tag = allTags.find(x => x.slug === params.slug.toLowerCase())
   if (!tag) error(404, `Could not find tag with slug ${params.slug}`)
   const allRecipes = await getRecipes()
-  const recipes = allRecipes.filter(x => x.tags.some(t => equalsIgnoreCase(tag.name, t)))
+  const recipes = allRecipes
+    .filter(x => x.tags.some(t => equalsIgnoreCase(tag.name, t)))
+    .map(recipe => ({ slug: recipe.slug, title: recipe.title }))
   return { tag, recipes }
 }

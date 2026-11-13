@@ -6,7 +6,7 @@
   import MenuGridImageLink from './menu-grid-image-link.svelte'
   import SearchForm from './search-form.svelte'
   import type { RecipeSearchResult } from '#lib/search.ts'
-  import { getImage } from '#lib/image.ts'
+  import { searchBanner } from '#lib/banner.ts'
 
   export let results = new Array<RecipeSearchResult>()
   export let searchTerm = ''
@@ -14,22 +14,11 @@
   export let onSubmit: () => Promise<void> | void
   export const show = () => dialog.showModal()
   let dialog: HTMLDialogElement
-
-  const lqipImages = import.meta.glob('/src/uploads/*', {
-    import: 'default',
-    eager: true,
-    query: '?w=128&h=96&format=webp&inline&as=url&quality=10'
-  })
-  const images = import.meta.glob('/src/uploads/*', {
-    import: 'default',
-    eager: true,
-    query: '?w=640;800&h=480;600&fit=cover&format=webp&as=picture'
-  })
 </script>
 
 <dialog bind:this={dialog} on:close={() => (searchTerm = '')}>
   <BannerMainContainer>
-    <ImageBanner imagePath="/src/uploads/search-banner.jpg" renderHomeLink={false}>
+    <ImageBanner banner={searchBanner} renderHomeLink={false}>
       <button class="close" aria-label="Stäng sökresultatet" on:click={() => dialog.close()}>
         <img src={CloseSvg} alt="Stäng sökresultatet" />
       </button>
@@ -41,8 +30,7 @@
     </ImageBanner>
     <menu data-sveltekit-reload>
       {#each results as result}
-        {@const image = getImage(images, lqipImages, `/src${result.featuredimage}`)}
-        <MenuGridImageLink href={`/${result.slug}`} title={result.title} {image} />
+        <MenuGridImageLink href={`/${result.slug}`} title={result.title} image={result.image} />
       {/each}
     </menu>
   </BannerMainContainer>

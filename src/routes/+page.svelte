@@ -8,6 +8,7 @@
   import Searchbox from './searchbox.svelte'
   import { CategoryLinks } from '#lib/constants.ts'
   import { getImage } from '#lib/image.ts'
+  import { startpageBanner } from '#lib/banner.ts'
 
   const lqipImages = import.meta.glob('/src/uploads/*1x1.jpg', {
     import: 'default',
@@ -29,7 +30,7 @@
 
 <PageWrapper>
   <BannerMainContainer>
-    <ImageBanner imagePath="/src/uploads/startpage-banner.jpg">
+    <ImageBanner banner={startpageBanner}>
       <BannerHeader>
         <h1>{config.title}</h1>
         <h2>{config.description}</h2>

@@ -12,10 +12,9 @@
   import { servingsUnitFormatted } from '#lib/servings.ts'
 
   export let data: PageData
-  export const { recipe, tags, image } = data
+  export const { recipe, tags, image, banner } = data
 
   const title = `${recipe.title} | ${recipe.category}`
-  const imagePath = `/src${recipe.featuredimage}`
 </script>
 
 <svelte:head>
@@ -27,7 +26,7 @@
 <PageWrapper editLink={`/admin/index.html#/collections/recept/entries/${recipe.slug}`}>
   <KeepAwake />
   <div class="page">
-    <ImageBanner {imagePath}>
+    <ImageBanner {banner}>
       <header>
         <h1>{recipe.title}</h1>
       </header>

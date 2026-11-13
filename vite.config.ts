@@ -24,6 +24,9 @@ export default defineConfig({
         precompress: false,
         strict: true
       }),
+      prerender: {
+        entries: ['*', '/search.json']
+      },
       onwarn: (warning, handler) => {
         // supress a11y warnings in markdown files
         if (warning.code.startsWith('a11y_') && warning.filename?.endsWith('.md')) return
