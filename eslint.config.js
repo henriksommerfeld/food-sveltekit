@@ -82,6 +82,7 @@ export default [
       'yarn.lock',
       'dist/**',
       'static/uploads/**',
+      'static/admin/**',
       'src/uploads/**'
     ]
   }
