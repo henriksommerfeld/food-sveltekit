@@ -1,6 +1,6 @@
 ---
 title: Ägg royale
-description: ''
+description: Kan göras som Benedict genom att byta ut laxen mot bacon
 tools: ''
 hidden: false
 category: Frukost
@@ -52,7 +52,7 @@ ingredients:
         - ingredient:
             ingredientamount: 0
             unit: st
-            ingredientname: dill och/eller krasse
+            ingredientname: krasse
         - ingredient:
             ingredientamount: 0
             unit: g
@@ -61,11 +61,13 @@ instructions:
   - partinstructions:
       partinstructionsname: Allt
       partinstructionslist:
-        - instruction: Rosta bröden med smöret i en stekpanna så dom blir krispiga och gyllenbruna.
-        - instruction: Koka upp vatten och ättika. Knäck äggen i en bunke. Gör en virvel i vattnet och lägg i äggen försiktigt. Låt pochera ca 3-5 minuter.
+        - instruction: Rosta bröden med smöret i en stekpanna så dom blir krispiga och gyllenbruna. Sätt på låg värme så att de kan ligga kvar i stekpannan tills det övriga är färdigt.
+        - instruction: Häll ungefär hälften av ättikan i en stor skål. Kläck i äggen och på med resten av ättikan. Låt vila i 10 minuter.
+        - instruction: Koka upp saltat vatten (mycket) till äggen.
+        - instruction: Häll i äggen och sänk värmen. Låt koka ca 3,5 minuter.
         - instruction: Ta upp äggen med hålslev och låt rinna av på hushållspapper. Strö över lite flingsalt.
-        - instruction: Gör [hollandaisesåsen](/hollandaisesas)
-        - instruction: Lägg laxskivor på de stekta bröden. Toppa med pocherat ägg och hollandaisesås. Mal över lite svartpeppar och garnera med krasse och/eller dill.
+        - instruction: Gör [hollandaisesåsen](/hollandaisesas).
+        - instruction: Lägg laxskivor på de stekta bröden. Toppa med pocherat ägg och hollandaisesås. Mal över lite svartpeppar och garnera med krasse.
 timepassive:
   dayspassive: 0
   hourspassive: 0
