@@ -81,7 +81,7 @@
         <div class="columns">
           <Ingredients {recipe} />
           <div>
-            <Instructions instructions={recipe.instructions} />
+            <Instructions instructions={recipe.instructions} slug={recipe.slug} />
             <div class="featured-thumbnail">
               <Image
                 src={image.src}

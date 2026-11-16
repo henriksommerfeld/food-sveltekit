@@ -4,8 +4,8 @@
   import RichText from '#lib/rich-text.svelte'
 
   export let instruction: string
-  const toggle = () => (isChecked = !isChecked)
-  $: isChecked = false
+  export let isChecked = false
+  export let onToggle: () => void
   // TODO: maybe replace without ts function transparentizeHex
   $: boxshadowColor = isChecked
     ? transparentizeHex(tailwindColors.teal500, 0.2)
@@ -15,7 +15,7 @@
 
 <li class:checked={isChecked}>
   <label>
-    <input type="checkbox" on:change={toggle} />
+    <input type="checkbox" checked={isChecked} on:change={onToggle} />
     <span
       style="--boxShadowColor: {boxshadowColor}; --focusBoxShadowColor: {focusCheckboxShadowColor} --checked: {isChecked}"
     ></span>
